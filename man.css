@@ -1,0 +1,29 @@
+/*  global roles */
+/* Usage :
+Use Open Sans for paragraphs, descriptions, and any text content to ensure good readability.
+Use Playfair Display for headings, section titles, and important notices to give a classic and elegant look. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif; /* For body text */
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif; /* For headings */
+  font-weight: 700;
+}
+
+.container {
+  width: min(90%, 1200px);
+  margin: 0 auto;
+}
