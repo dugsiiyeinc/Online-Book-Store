@@ -40,3 +40,24 @@
     display: flex;
     transition: transform 0.5s ease;
 }
+.book {
+    width: 25%;  
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    color:#21758f;
+
+ }
+ .book img{
+    width:150px;
+    height:200px;
+    object-cover:hidden;
+    object-fit: cover;
+    transition: transform 0.3s;
+ }
+ .book img:hover{
+    transform:scale(1.1);
+ }
+ .book p{
+    color:#0d2537;
+ }
