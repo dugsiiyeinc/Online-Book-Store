@@ -39,4 +39,14 @@ function showBooks(slideIndex) {
 
      updateDots(slideIndex);
 }
+function updateDots(activeIndex) {
+    const dots = document.querySelectorAll('.dot');
+    dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === activeIndex); 
+    });
+}
+
+ function onDotClick(index) {
+    showBooks(index);
+}
 
