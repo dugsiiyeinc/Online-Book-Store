@@ -1,3 +1,6 @@
+const booksPerPage = 4; 
+let currentSlide = 1;  
+
 async function fetchBooks() {
 	try {
 	   const response = await fetch('books.json'); // Path to your local JSON file
