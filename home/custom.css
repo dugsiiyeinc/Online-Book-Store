@@ -46,11 +46,11 @@
     padding: 20px;
     text-align: center;
     color: var(--colorblackblue);
-    background-color: white; /* Asalka cad */
-    border-radius: 10px 10px 0 0; /* Geesaha sare ee wareegsan */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hooska */
-    margin: 10px; /* Faaruqinta dibadda */
-    transition: transform 0.2s; /* Isbadal jilicsan */
+    background-color: white; 
+    border-radius: 10px 10px 0 0; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    margin: 10px; 
+    transition: transform 0.2s;
 }
 
 .book img {
