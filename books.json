@@ -1,6 +1,6 @@
 [
     {
-        "bookTitle": "The Lean Startup",
+        "bookTitle": "Lean Startup",
         "bookImage": "https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg",
         "bookCategory": "Business",
         "bookPages": 320,
@@ -9,7 +9,7 @@
         "bookYear": 2011
     },
     {
-        "bookTitle": "Thinking, Fast and Slow",
+        "bookTitle": "Thinking Fast and Slow",
         "bookImage": "https://images-na.ssl-images-amazon.com/images/I/71HMyqG6MRL.jpg",
         "bookCategory": "Psychology",
         "bookPages": 499,
@@ -27,7 +27,7 @@
         "bookYear": 2008
     },
     {
-        "bookTitle": "Sapiens: A Brief History of Humankind",
+        "bookTitle": "Sapiens",
         "bookImage": "https://images-na.ssl-images-amazon.com/images/I/713jIoMO3UL.jpg",
         "bookCategory": "History",
         "bookPages": 443,
@@ -36,7 +36,7 @@
         "bookYear": 2011
     },
     {
-        "bookTitle": "The Pragmatic Programmer",
+        "bookTitle": "Pragmatic Programmer",
         "bookImage": "https://m.media-amazon.com/images/I/61ztlXgCmpL._AC_UF1000,1000_QL80_.jpg",
         "bookCategory": "Programming",
         "bookPages": 352,
@@ -45,7 +45,7 @@
         "bookYear": 1999
     },
     {
-        "bookTitle": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
+        "bookTitle": "Elon Musk",
         "bookImage": "https://m.media-amazon.com/images/I/81SlrVsShvL._AC_UF1000,1000_QL80_.jpg",
         "bookCategory": "Biography",
         "bookPages": 392,
@@ -54,7 +54,7 @@
         "bookYear": 2015
     },
     {
-        "bookTitle": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+        "bookTitle": "Atomic Habits",
         "bookImage": "https://images-na.ssl-images-amazon.com/images/I/91bYsX41DVL.jpg",
         "bookCategory": "Self-help",
         "bookPages": 320,
@@ -62,10 +62,8 @@
         "bookAuthor": "James Clear",
         "bookYear": 2018
     },
-   
-   
     {
-        "bookTitle": "Zero to One: Notes on Startups, or How to Build the Future",
+        "bookTitle": "Zero to One",
         "bookImage": "https://images-na.ssl-images-amazon.com/images/I/71m-MxdJ2WL.jpg",
         "bookCategory": "Business",
         "bookPages": 224,
@@ -74,7 +72,7 @@
         "bookYear": 2014
     },
     {
-        "bookTitle": "Brief Answers to the Big Questions",
+        "bookTitle": "Brief Answers",
         "bookImage": "https://images-na.ssl-images-amazon.com/images/I/81bsw6fnUiL.jpg",
         "bookCategory": "Science",
         "bookPages": 256,
@@ -91,9 +89,8 @@
         "bookAuthor": "Stephen Hawking",
         "bookYear": 1988
     },
-    
     {
-        "bookTitle": "How to Win Friends and Influence People",
+        "bookTitle": "How to Win Friends",
         "bookImage": "https://m.media-amazon.com/images/I/71Y5RyRoxuL._AC_UF1000,1000_QL80_.jpg",
         "bookCategory": "Self-help",
         "bookPages": 291,
@@ -101,9 +98,8 @@
         "bookAuthor": "Dale Carnegie",
         "bookYear": 1936
     },
-    
     {
-        "bookTitle": "The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change",
+        "bookTitle": "7 Habits",
         "bookImage": "https://cdn11.bigcommerce.com/s-gjd9kmzlkz/images/stencil/1280x1280/products/10042/33274/7_habits__92713.1714596960.jpg?c=1",
         "bookCategory": "Self-help",
         "bookPages": 381,
@@ -112,7 +108,7 @@
         "bookYear": 1989
     },
     {
-        "bookTitle": "The Mythical Man-Month: Essays on Software Engineering",
+        "bookTitle": "Mythical Man-Month",
         "bookImage": "https://images-na.ssl-images-amazon.com/images/I/41GZC08GJ0L._SX326_BO1,204,203,200_.jpg",
         "bookCategory": "Programming",
         "bookPages": 322,
@@ -121,7 +117,7 @@
         "bookYear": 1975
     },
     {
-        "bookTitle": "Educated: A Memoir",
+        "bookTitle": "Educated",
         "bookImage": "https://images-na.ssl-images-amazon.com/images/I/81WojUxbbFL.jpg",
         "bookCategory": "Biography",
         "bookPages": 334,
@@ -130,7 +126,7 @@
         "bookYear": 2018
     },
     {
-        "bookTitle": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
+        "bookTitle": "Subtle Art",
         "bookImage": "https://images-na.ssl-images-amazon.com/images/I/71QKQ9mwV7L.jpg",
         "bookCategory": "Self-help",
         "bookPages": 224,
@@ -139,7 +135,7 @@
         "bookYear": 2016
     },
     {
-        "bookTitle": "The Self-Taught Programmer: The Definitive Guide to Programming Professionally",
+        "bookTitle": "Self-Taught Programmer",
         "bookImage": "https://images-na.ssl-images-amazon.com/images/I/41FUphRz2sL._SX331_BO1,204,203,200_.jpg",
         "bookCategory": "Programming",
         "bookPages": 299,
