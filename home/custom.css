@@ -7,7 +7,7 @@
 .best-sellers{
     width:100%;
     height:100vh;
-    background-color:var( --colorblackblue);
+    background-color:var( --colorblueblack);
 }
 .best-sellers .container{
     display:flex;
@@ -45,7 +45,7 @@
     box-sizing: border-box;
     padding: 20px;
     text-align: center;
-    color:#21758f;
+    color:var(--colorblackblue);
 
  }
  .book img{
@@ -59,7 +59,7 @@
     transform:scale(1.1);
  }
  .book p{
-    color:#0d2537;
+    color:#fff;
  }
  .slider-dots {
     text-align: center;
@@ -70,7 +70,7 @@
     height: 15px;
     width: 15px;
     margin: 0 5px;
-    border:2px solid var( --colorblueblack);
+    border:2px solid var( --colorblackblue);
     border-radius: 50%;
     display: inline-block;
 }
