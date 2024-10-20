@@ -3,14 +3,14 @@ let currentSlide = 1;
 
 async function fetchBooks() {
 	try {
-	   const response = await fetch('books.json'); // Path to your local JSON file
+	   const response = await fetch('books.json'); 
 	   if (!response.ok) {
-		   throw new Error('Books cannot be fetched'); // Handle error if fetch fails
+		   throw new Error('Books cannot be fetched');  
 	   }
-	   books = await response.json(); // Parse and store the JSON data
-	   showBooks(currentSlide); // Show the initial books
+	   books = await response.json(); 
+	   showBooks(currentSlide);  
    } catch (error) {
-	   console.error("Error fetching books:", error); // Log any errors
+	   console.error("Error fetching books:", error); 
    }
 }
 
