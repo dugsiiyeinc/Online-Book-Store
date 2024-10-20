@@ -13,4 +13,30 @@ async function fetchBooks() {
 	   console.error("Error fetching books:", error); // Log any errors
    }
 }
+
 fetchBooks();
+function showBooks(slideIndex) {
+    currentSlide = slideIndex;
+    const slider = document.getElementById('slider');
+    slider.innerHTML = '';  
+
+     const start = slideIndex * booksPerPage;
+    const end = start + booksPerPage;
+    const currentBooks = books.slice(start, end); 
+
+     currentBooks.forEach(book => {
+        const bookDiv = document.createElement('div');
+        bookDiv.classList.add('book');
+
+         bookDiv.innerHTML = `
+            <img src="${book.bookImage}" alt="${book.bookTitle}" />
+            <h3>${book.bookTitle}</h3>
+            <p>Author: ${book.bookAuthor}</p>
+        `;
+
+         slider.appendChild(bookDiv);
+    });
+
+     updateDots(slideIndex);
+}
+
