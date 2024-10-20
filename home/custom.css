@@ -78,3 +78,20 @@
     background-color: #f9991d;
 
 }
+
+@media (max-width:768px){
+    .best-sellers{
+        width:100%;
+        height:auto;
+    }
+    .slider {
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .book{
+        width:100%;
+    }
+  
+
+}
