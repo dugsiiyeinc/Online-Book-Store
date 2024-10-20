@@ -31,3 +31,12 @@
     font-weight:bold;
     color:#fff;
 }
+.container .slider-container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
