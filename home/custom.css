@@ -99,6 +99,28 @@ header nav .btns .register:hover {
 #close-menu {
   display: none; /* Hide close icon by default */
 }
+
+#hero {
+  max-width: 100%;
+  height: 86vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+  /* background-position: center !important; */
+  background-image: url("/images/bgHero-3.png");
+  transition: background-image 2s ease-in-out !important;
+  object-fit: cover !important;
+}
+#hero .overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media (max-width: 992px) {
   .desktop ul,
   header nav .btns {
