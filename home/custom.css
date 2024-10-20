@@ -61,3 +61,20 @@
  .book p{
     color:#0d2537;
  }
+ .slider-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    border:2px solid var( --colorblueblack);
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot.active {
+    background-color: #f9991d;
+
+}
