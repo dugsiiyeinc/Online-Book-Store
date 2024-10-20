@@ -1,0 +1,150 @@
+[
+    {
+        "bookTitle": "The Lean Startup",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg",
+        "bookCategory": "Business",
+        "bookPages": 320,
+        "bookPrice": 29.99,
+        "bookAuthor": "Eric Ries",
+        "bookYear": 2011
+    },
+    {
+        "bookTitle": "Thinking, Fast and Slow",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/71HMyqG6MRL.jpg",
+        "bookCategory": "Psychology",
+        "bookPages": 499,
+        "bookPrice": 14.99,
+        "bookAuthor": "Daniel Kahneman",
+        "bookYear": 2011
+    },
+    {
+        "bookTitle": "Clean Code",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX258_BO1,204,203,200_.jpg",
+        "bookCategory": "Programming",
+        "bookPages": 464,
+        "bookPrice": 34.99,
+        "bookAuthor": "Robert C. Martin",
+        "bookYear": 2008
+    },
+    {
+        "bookTitle": "Sapiens: A Brief History of Humankind",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/713jIoMO3UL.jpg",
+        "bookCategory": "History",
+        "bookPages": 443,
+        "bookPrice": 22.99,
+        "bookAuthor": "Yuval Noah Harari",
+        "bookYear": 2011
+    },
+    {
+        "bookTitle": "The Pragmatic Programmer",
+        "bookImage": "https://m.media-amazon.com/images/I/61ztlXgCmpL._AC_UF1000,1000_QL80_.jpg",
+        "bookCategory": "Programming",
+        "bookPages": 352,
+        "bookPrice": 39.99,
+        "bookAuthor": "Andrew Hunt and David Thomas",
+        "bookYear": 1999
+    },
+    {
+        "bookTitle": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
+        "bookImage": "https://m.media-amazon.com/images/I/81SlrVsShvL._AC_UF1000,1000_QL80_.jpg",
+        "bookCategory": "Biography",
+        "bookPages": 392,
+        "bookPrice": 18.99,
+        "bookAuthor": "Ashlee Vance",
+        "bookYear": 2015
+    },
+    {
+        "bookTitle": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/91bYsX41DVL.jpg",
+        "bookCategory": "Self-help",
+        "bookPages": 320,
+        "bookPrice": 16.99,
+        "bookAuthor": "James Clear",
+        "bookYear": 2018
+    },
+   
+   
+    {
+        "bookTitle": "Zero to One: Notes on Startups, or How to Build the Future",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/71m-MxdJ2WL.jpg",
+        "bookCategory": "Business",
+        "bookPages": 224,
+        "bookPrice": 24.99,
+        "bookAuthor": "Peter Thiel",
+        "bookYear": 2014
+    },
+    {
+        "bookTitle": "Brief Answers to the Big Questions",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/81bsw6fnUiL.jpg",
+        "bookCategory": "Science",
+        "bookPages": 256,
+        "bookPrice": 19.99,
+        "bookAuthor": "Stephen Hawking",
+        "bookYear": 2018
+    },
+    {
+        "bookTitle": "A Brief History of Time",
+        "bookImage": "https://m.media-amazon.com/images/I/81DBK93b6jL._AC_UF1000,1000_QL80_.jpg",
+        "bookCategory": "Science",
+        "bookPages": 212,
+        "bookPrice": 18.99,
+        "bookAuthor": "Stephen Hawking",
+        "bookYear": 1988
+    },
+    
+    {
+        "bookTitle": "How to Win Friends and Influence People",
+        "bookImage": "https://m.media-amazon.com/images/I/71Y5RyRoxuL._AC_UF1000,1000_QL80_.jpg",
+        "bookCategory": "Self-help",
+        "bookPages": 291,
+        "bookPrice": 14.99,
+        "bookAuthor": "Dale Carnegie",
+        "bookYear": 1936
+    },
+    
+    {
+        "bookTitle": "The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change",
+        "bookImage": "https://cdn11.bigcommerce.com/s-gjd9kmzlkz/images/stencil/1280x1280/products/10042/33274/7_habits__92713.1714596960.jpg?c=1",
+        "bookCategory": "Self-help",
+        "bookPages": 381,
+        "bookPrice": 17.99,
+        "bookAuthor": "Stephen R. Covey",
+        "bookYear": 1989
+    },
+    {
+        "bookTitle": "The Mythical Man-Month: Essays on Software Engineering",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/41GZC08GJ0L._SX326_BO1,204,203,200_.jpg",
+        "bookCategory": "Programming",
+        "bookPages": 322,
+        "bookPrice": 27.99,
+        "bookAuthor": "Frederick P. Brooks Jr.",
+        "bookYear": 1975
+    },
+    {
+        "bookTitle": "Educated: A Memoir",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/81WojUxbbFL.jpg",
+        "bookCategory": "Biography",
+        "bookPages": 334,
+        "bookPrice": 15.99,
+        "bookAuthor": "Tara Westover",
+        "bookYear": 2018
+    },
+    {
+        "bookTitle": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/71QKQ9mwV7L.jpg",
+        "bookCategory": "Self-help",
+        "bookPages": 224,
+        "bookPrice": 14.99,
+        "bookAuthor": "Mark Manson",
+        "bookYear": 2016
+    },
+    {
+        "bookTitle": "The Self-Taught Programmer: The Definitive Guide to Programming Professionally",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/41FUphRz2sL._SX331_BO1,204,203,200_.jpg",
+        "bookCategory": "Programming",
+        "bookPages": 299,
+        "bookPrice": 24.99,
+        "bookAuthor": "Cory Althoff",
+        "bookYear": 2018
+    }
+]
