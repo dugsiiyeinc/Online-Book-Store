@@ -45,22 +45,32 @@
     box-sizing: border-box;
     padding: 20px;
     text-align: center;
-    color:var(--colorblackblue);
+    color: var(--colorblackblue);
+    background-color: white; /* Asalka cad */
+    border-radius: 10px 10px 0 0; /* Geesaha sare ee wareegsan */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hooska */
+    margin: 10px; /* Faaruqinta dibadda */
+    transition: transform 0.2s; /* Isbadal jilicsan */
+}
 
- }
- .book img{
-    width:150px;
-    height:200px;
-    object-cover:hidden;
+.book img {
+    width: 150px;
+    height: 200px;
     object-fit: cover;
     transition: transform 0.3s;
- }
- .book img:hover{
-    transform:scale(1.1);
- }
- .book p{
-    color:#fff;
- }
+}
+
+.book img:hover {
+    transform: scale(1.1); 
+}
+
+.book h3 {
+    margin: 10px 0; 
+}
+
+.book p {
+    color: #000; 
+}
  .slider-dots {
     text-align: center;
     margin-top: 20px;
