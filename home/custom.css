@@ -12,14 +12,14 @@
 .best-sellers .container{
     display:flex;
     flex-direction:column;
-    gap:2rem;
+    gap:1rem;
     align-items:center;
 }
 .best-sellers .container .section-title{
     display:flex;
     flex-direction:column;
     align-items:center;
-    gap:10px;
+    gap:5px;
 }
 .section-title h1{
     fon-size:3rem;
@@ -43,7 +43,7 @@
 .book {
     width: 25%;  
     box-sizing: border-box;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     color: var(--colorYellowGold);
     background:linear-gradient(to bottom, #0d2537, #21758f);
