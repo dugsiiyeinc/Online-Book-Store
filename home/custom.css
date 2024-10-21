@@ -72,6 +72,14 @@
 .book p {
     color: #fff; 
 }
+.book-info{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:15px;
+    padding:10px;
+    border-top:1px solid #333;
+}
  .slider-dots {
     text-align: center;
     margin-top: 20px;
