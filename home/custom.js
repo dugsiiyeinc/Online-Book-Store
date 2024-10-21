@@ -65,6 +65,10 @@ function showBooks(slideIndex) {
 function onDotClick(index) {
     showBooks(index);
 }
+const dots = document.querySelectorAll('.dot');
+dots.forEach((dot, index) => {
+    dot.onclick = () => onDotClick(index);
+});
 
 
 
