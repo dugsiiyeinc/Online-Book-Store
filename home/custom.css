@@ -146,7 +146,7 @@
 
 .navigation-buttons button {
     border: 2px solid #fff;
-    background:linear-gradient(to right, #ff7700, #0d2537);
+    background-color:#ff7700;
     color: #fff;
      padding: 10px 20px;
     margin: 0 10px;
