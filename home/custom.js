@@ -1,7 +1,7 @@
 let books = [];
 let booksPerPage =  window.innerWidth <= 768 ? 1 :4; 
 const totalBooks = 12;
-let currentSlide = 0;  
+let currentSlide = 1;  
 
 async function fetchBooks() {
 	try {
@@ -53,7 +53,15 @@ function showBooks(slideIndex) {
 
          slider.appendChild(bookDiv);
     });
+    updateDots(currentSlide);
  }
+ 
+ function updateDots(activeIndex) {
+    const dots = document.querySelectorAll('.dot');
+    dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === activeIndex); 
+    });
+}
 
 function updateBooksPerPage() {
     const newBooksPerPage = window.innerWidth <= 768 ? 1 : 4;
