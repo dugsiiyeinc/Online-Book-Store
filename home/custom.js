@@ -63,9 +63,6 @@ function updateBooksPerPage() {
     }
 }
 
- function onDotClick(index) {
-    showBooks(index);
-}
 function nextSlide() {
     if ((currentSlide + 1) * booksPerPage < books.length) {
         currentSlide++; 
