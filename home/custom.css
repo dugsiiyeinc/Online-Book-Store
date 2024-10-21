@@ -124,6 +124,22 @@
     .book{
         width:100%;
     }
+    .navigation-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.navigation-buttons button {
+    background-color: var(--colorYellowGold);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
   
 
 }
