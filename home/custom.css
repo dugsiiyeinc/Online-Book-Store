@@ -133,18 +133,20 @@
     .navigation-buttons {
     display: flex;
     justify-content: center;
+    gap:2rem;
     margin-top: 20px;
 }
 
 .navigation-buttons button {
-    background-color: var(--colorYellowGold);
+    border: 2px solid #fff;
+    background:linear-gradient(to right, #ff7700, #0d2537);
     color: #fff;
-    border: none;
-    padding: 10px 20px;
+     padding: 10px 20px;
     margin: 0 10px;
     cursor: pointer;
     border-radius: 5px;
     font-weight: bold;
+    font-size:18px;
 }
   
 
