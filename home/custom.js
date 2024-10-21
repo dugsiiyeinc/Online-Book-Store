@@ -1,7 +1,7 @@
 let books = [];
 let booksPerPage =  window.innerWidth <= 768 ? 1 :4; 
-let totalBooks = 12;
-let currentSlide = 1;  
+const totalBooks = 12;
+let currentSlide = 0;  
 
 async function fetchBooks() {
 	try {
@@ -53,7 +53,7 @@ function showBooks(slideIndex) {
          slider.appendChild(bookDiv);
     });
  }
- 
+
 function updateBooksPerPage() {
     const newBooksPerPage = window.innerWidth <= 768 ? 1 : 4;
     if (newBooksPerPage !== booksPerPage) {
@@ -70,6 +70,12 @@ function nextSlide() {
     if ((currentSlide + 1) * booksPerPage < books.length) {
         currentSlide++; 
         showBooks(currentSlide);  
+    }
+}
+function prevSlide() {
+    if (currentSlide > 0) {
+        currentSlide--;
+        showBooks(currentSlide);
     }
 }
 
