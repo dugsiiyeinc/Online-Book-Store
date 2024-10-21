@@ -110,6 +110,9 @@
     background-color: #f9991d;
 
 }
+.navigation-buttons {
+    display:none;
+}
 
 @media (max-width:768px){
     .best-sellers{
