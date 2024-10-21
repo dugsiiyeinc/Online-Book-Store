@@ -39,6 +39,10 @@ function showBooks(slideIndex) {
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
             </div>
+              <div class="book-info">
+                <p class="price">$${book.bookPrice}</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
         `;
 
          slider.appendChild(bookDiv);
