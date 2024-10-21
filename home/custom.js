@@ -9,6 +9,9 @@ async function fetchBooks() {
 		   throw new Error('Books cannot be fetched');  
 	   }
 	   books = await response.json(); 
+       if (books.length > totalBooks) {
+        books = books.slice(0, totalBooks);
+    }
 	   showBooks(currentSlide);  
    } catch (error) {
 	   console.error("Error fetching books:", error); 
