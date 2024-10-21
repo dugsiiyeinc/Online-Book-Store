@@ -45,10 +45,10 @@
     box-sizing: border-box;
     padding: 20px;
     text-align: center;
-    color: var(--colorblackblue);
-    background-color: white; 
-    border-radius: 150px 150px 0 0; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    color: var(--colorYellowGold);
+    background:linear-gradient(to bottom, #0d2537, #21758f);
+    border-radius: 200px 200px 0 0; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
     margin: 10px; 
     transition: transform 0.2s;
 }
@@ -65,11 +65,11 @@
 }
 
 .book h3 {
-    margin: 10px 0; 
+     margin: 10px 0; 
 }
 
 .book p {
-    color: #000; 
+    color: #fff; 
 }
  .slider-dots {
     text-align: center;
