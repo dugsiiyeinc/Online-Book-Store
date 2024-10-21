@@ -93,6 +93,10 @@
     font-size:18px;
     font-weight:bold;
 }
+.book-info .add-to-cart:hover{
+    background-color:var(--colorYellowGold);
+    color:#fff;
+}
  .slider-dots {
     text-align: center;
     margin-top: 20px;
