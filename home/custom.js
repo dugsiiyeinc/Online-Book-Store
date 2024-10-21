@@ -16,6 +16,7 @@ async function fetchBooks() {
 	   showBooks(currentSlide);  
    } catch (error) {
 	   console.error("Error fetching books:", error); 
+       alert("Failed to load books. Please try again later")
    }
 }
 
