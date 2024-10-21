@@ -80,6 +80,11 @@
     padding:10px;
     border-top:1px solid #333;
 }
+.book-info .price{
+    font-weight:bold;
+    font-size:20px;
+    color:var(--colorYellowGold)
+}
  .slider-dots {
     text-align: center;
     margin-top: 20px;
