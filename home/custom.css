@@ -7,7 +7,7 @@
 .best-sellers{
     width:100%;
     height:100vh;
-    background-color:var( --colorblueblack);
+    background-color:#f5f5f5;
 }
 .best-sellers .container{
     display:flex;
@@ -29,7 +29,7 @@
 .section-title p{
     font-size:20px;
     font-weight:bold;
-    color:#fff;
+    color:#0d2537;
 }
 .container .slider-container {
     width: 100%;
@@ -41,13 +41,13 @@
     transition: transform 0.5s ease;
 }
 .book {
-    width: 25%;  
+    width: 25%; 
+    height:400px; 
     box-sizing: border-box;
     padding: 15px;
     text-align: center;
-    color: var(--colorYellowGold);
-    background:linear-gradient(to bottom, #0d2537, #21758f);
-    border-radius: 200px 200px 0 0; 
+     background-color:var(--colorblueblack);
+     border-radius: 300px 300px 0 0; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
     margin: 10px; 
     transition: transform 0.2s;
@@ -57,20 +57,24 @@
     width: 150px;
     height: 200px;
     object-fit: cover;
-    transition: transform 0.3s;
+    transition: transform 0.8s;
 }
 
 .book img:hover {
-    transform: translate(-20px, -20px); 
-    box-shadow: 10px 10px 0 rgba(255, 119, 0, 0.5);
+    transform: translate(-10px, -10px); 
+    box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
 }
 
 .book h3 {
+    color:#0d2537;
      margin: 10px 0; 
 }
 
 .book p {
     color: #fff; 
+}
+.stars{
+    color:var(--colorYellowGold);
 }
 .book-info{
     display:flex;
@@ -78,25 +82,24 @@
     align-items:center;
     margin-top:15px;
     padding:10px;
-    border-top:1px solid #333;
+    border-top:1px solid #fff;
 }
 .book-info .price{
     font-weight:bold;
     font-size:20px;
-    color:var(--colorYellowGold)
+    color:var(--colorblackblue)
 }
 .book-info .add-to-cart{
-    background-color:#fff;
+    background-color:#0d2537;
     padding:6px 8px;
     border:none;
-    color:var(--colorYellowGold);
+    color:#fff;
     font-size:18px;
     font-weight:bold;
 }
 .book-info .add-to-cart:hover{
     background-color:var(--colorYellowGold);
-    color:#fff;
-}
+ }
  .slider-dots {
     text-align: center;
     margin-top: 20px;
