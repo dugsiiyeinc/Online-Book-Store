@@ -32,6 +32,13 @@ function showBooks(slideIndex) {
             <img src="${book.bookImage}" alt="${book.bookTitle}" />
             <h3>${book.bookTitle}</h3>
             <p>Author: ${book.bookAuthor}</p>
+               <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
         `;
 
          slider.appendChild(bookDiv);
