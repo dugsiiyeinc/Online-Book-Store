@@ -117,7 +117,7 @@
 @media (max-width:768px){
     .best-sellers{
         width:100%;
-        height:auto;
+        max-height:auto;
     }
     .slider {
         display: flex;
