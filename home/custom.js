@@ -52,14 +52,15 @@ function showBooks(slideIndex) {
 
          slider.appendChild(bookDiv);
     });
-
-     updateDots(slideIndex);
-}
-function updateDots(activeIndex) {
-    const dots = document.querySelectorAll('.dot');
-    dots.forEach((dot, index) => {
-        dot.classList.toggle('active', index === activeIndex); 
-    });
+ }
+ 
+function updateBooksPerPage() {
+    const newBooksPerPage = window.innerWidth <= 768 ? 1 : 4;
+    if (newBooksPerPage !== booksPerPage) {
+        booksPerPage = newBooksPerPage;
+        currentSlide = 0; 
+        showBooks(currentSlide); 
+    }
 }
 
  function onDotClick(index) {
