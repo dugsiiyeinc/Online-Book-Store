@@ -70,6 +70,10 @@ dots.forEach((dot, index) => {
     dot.onclick = () => onDotClick(index);
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+    updateDots(currentSlide);
+});
+
 
 
 function updateBooksPerPage() {
