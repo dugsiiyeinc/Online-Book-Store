@@ -85,6 +85,14 @@
     font-size:20px;
     color:var(--colorYellowGold)
 }
+.book-info .add-to-cart{
+    background-color:#fff;
+    padding:6px 8px;
+    border:none;
+    color:var(--colorYellowGold);
+    font-size:18px;
+    font-weight:bold;
+}
  .slider-dots {
     text-align: center;
     margin-top: 20px;
