@@ -70,4 +70,11 @@ function nextSlide() {
         showBooks(currentSlide);  
     }
 }
+function prevSlide() {
+    if (currentSlide > 0) {
+        currentSlide--;
+        showBooks(currentSlide);
+    }
+}
+
 
