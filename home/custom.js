@@ -62,6 +62,11 @@ function showBooks(slideIndex) {
         dot.classList.toggle('active', index === activeIndex); 
     });
 }
+function onDotClick(index) {
+    showBooks(index);
+}
+
+
 
 function updateBooksPerPage() {
     const newBooksPerPage = window.innerWidth <= 768 ? 1 : 4;
