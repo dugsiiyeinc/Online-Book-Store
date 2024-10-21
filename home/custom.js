@@ -1,4 +1,5 @@
-const booksPerPage =  window.innerWidth <= 768 ? 1 :4; 
+let books = [];
+let booksPerPage =  window.innerWidth <= 768 ? 1 :4; 
 let totalBooks = 12;
 let currentSlide = 1;  
 
@@ -68,12 +69,6 @@ function nextSlide() {
     if ((currentSlide + 1) * booksPerPage < books.length) {
         currentSlide++; 
         showBooks(currentSlide);  
-    }
-}
-function prevSlide() {
-    if (currentSlide > 0) {
-        currentSlide--;
-        showBooks(currentSlide);
     }
 }
 
