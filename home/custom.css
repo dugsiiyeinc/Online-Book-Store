@@ -61,7 +61,8 @@
 }
 
 .book img:hover {
-    transform: scale(1.1); 
+    transform: translate(-20px, -20px); 
+    box-shadow: 10px 10px 0 rgba(255, 119, 0, 0.5);
 }
 
 .book h3 {
