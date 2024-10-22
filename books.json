@@ -109,7 +109,7 @@
     },
     {
         "bookTitle": "Mythical Man-Month",
-        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/41GZC08GJ0L._SX326_BO1,204,203,200_.jpg",
+        "bookImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPJzT0dCVWXODXiaoqehSvjoAI75gXYjJIFA&s",
         "bookCategory": "Programming",
         "bookPages": 322,
         "bookPrice": 27.99,
@@ -136,7 +136,7 @@
     },
     {
         "bookTitle": "Self-Taught Programmer",
-        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/41FUphRz2sL._SX331_BO1,204,203,200_.jpg",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/51+Z8QVq+WL._AC_UL210_SR210,210_.jpg",
         "bookCategory": "Programming",
         "bookPages": 299,
         "bookPrice": 24.99,
