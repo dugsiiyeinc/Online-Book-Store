@@ -79,27 +79,40 @@
 .stars{
     color:var(--colorYellowGold);
 }
-.book-info{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    margin-top:20px;
-    padding:10px;
- }
-.book-info .price{
+.price{
     font-weight:bold;
      color:var(--colorblackblue)
 }
+.book-info{
+    display:flex;
+    gap:1rem;
+     align-items:center;
+    margin-top:20px;
+    padding:3px;
+  }
+
 .book-info .add-to-cart{
-    background-color:#0d2537;
-    padding:6px;
+    background-color:#21758f;
+    padding:5px 3px;
     border:none;
     color:#fff;
-    font-size:18px;
-    font-weight:bold;
+  
+}
+.book-info .view{
+    background-color:#fff;
+    color:#21758f;
+    border:none;
+    padding:5px 3px;
+    transition:0.5s;
+
 }
 .book-info .add-to-cart:hover{
-    background-color:var(--colorYellowGold);
+    background-color:#fff;
+    color:var(--colorblueblack)
+ }
+ .book-info .view:hover{
+    background-color:#21758f;
+    color:#fff;
  }
  .slider-dots {
     text-align: center;
