@@ -2,26 +2,92 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BookNest</title>
+    <link rel="stylesheet" href="/home/custom.css" />
     <!-- link main css -->
-    <link rel="stylesheet" href="man.css">
+    <link rel="stylesheet" href="main.css" />
     <!-- font-family link -->
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Playfair+Display:wght@700&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" />
     <!-- link font awesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
     <!-- link js for home page -->
     <script src="./home/custom.js" defer></script>
-
 </head>
 
 
 
 <!-- Best sellers Section -->
 <body>
+    <header>
+        <div class="container">
+            <nav class="desktop">
+                <div class="logo">
+                    <a href="/index.html">Book<span>Nest</span></a>
+                </div>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">shop</a></li>
+                    <li><a href="#">cart</a></li>
+                </ul>
+                <div class="btns">
+                    <button class="login">sign in</button>
+                    <button class="register">sign up</button>
+                </div>
+                <div class="icons">
+                    <i class="bx bx-menu" id="open-menu"></i>
+                    <i class="bx bx-x" id="close-menu"></i>
+                </div>
+            </nav>
+        </div>
+        <nav class="mobileScreens">
+            <div class="logo">
+                <a href="/index.html">Book<span>Nest</span></a>
+            </div>
+            <ul class="">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">shop</a></li>
+                <li><a href="#">cart</a></li>
+            </ul>
+            <div class="btns">
+                <button class="login">sign in</button>
+                <button class="register">sign up</button>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="contentFlex">
+                <div class="content-hero">
+                    <h1>Uncover Your Next <span>Favorite</span> Book</h1>
+                    <p>
+                        Welcome to a cozy online haven where each page invites you on a
+                        new adventure. Discover bestsellers and uncover hidden gems that
+                        will ignite your imagination today!
+                    </p>
+                    <form id="Searchform">
+                        <div class="secrInput">
+                            <input type="search" placeholder="Find Your Favorite Books" id="searchInput">
+                        </div>
+                        <input type="submit" value="Search" id="searchBtn">
+                    </form>
+                </div>
+                <div class="contentHero-img" id="contentHero-img">
+                    <img src="/images/image-01.png" alt="man holding a book" class="img" />
+                </div>
+               
+            </div>
+
+        </div>
+    </section>
 </body>
 
 </html>
