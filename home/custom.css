@@ -42,14 +42,11 @@
 }
 .book {
     width: 25%; 
-    height:400px; 
+    height:400px;
+    display:flex; 
+    gap:2rem;
     box-sizing: border-box;
-    padding: 15px;
-    text-align: center;
-     background-color:var(--colorblueblack);
-     border-radius: 300px 300px 0 0; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
-    margin: 10px; 
+     margin: 10px; 
     transition: transform 0.2s;
  }
 
@@ -71,7 +68,7 @@
 }
 
 .book p {
-    color: #fff; 
+    color: #0d2537; 
 }
 .stars{
     color:var(--colorYellowGold);
