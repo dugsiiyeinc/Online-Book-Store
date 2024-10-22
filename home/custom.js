@@ -39,6 +39,7 @@ function showBooks(slideIndex) {
             <div class="book-detail">
             <h3>${book.bookTitle}</h3>
             <p class="author">Author: ${book.bookAuthor}</p>
+            <p class="author">${book.bookDescription}</p>
                <div class="stars">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -48,7 +49,9 @@ function showBooks(slideIndex) {
             </div>
              <p class="price">$${book.bookPrice}</p>
               <div class="book-info">
-                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart</button>
                 <button class="view">View Detail</button>
 
             </div>
