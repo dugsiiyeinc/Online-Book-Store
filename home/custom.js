@@ -1,5 +1,5 @@
 let books = [];
-let booksPerPage =  window.innerWidth <= 768 ? 1 :3; 
+let booksPerPage =  window.innerWidth <= 992 ? 1 :3; 
 const totalBooks = 9;
 let currentSlide = 1;  
 
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 function updateBooksPerPage() {
-    const newBooksPerPage = window.innerWidth <= 768 ? 1 : 4;
+    const newBooksPerPage = window.innerWidth <= 992 ? 1 : 4;
     if (newBooksPerPage !== booksPerPage) {
         booksPerPage = newBooksPerPage;
         currentSlide = 0; 

@@ -144,7 +144,7 @@
     display:none;
 }
 
-@media (max-width:768px){
+@media (max-width:992px){
     .best-sellers{
         width:100%;
         max-height:auto;
@@ -171,17 +171,13 @@
         border-radius: 10px 10px 0 0;
       }
      .book-detail{
-         /* align-items:center; */
-         gap:5px;
+          gap:5px;
          padding: 0 1rem;
      }
-     .desc{
-         text-align:center;
-    }
     .book-info{
-        margin-top:10px;
-        gap:1rem;
-        padding:1rem;
+        margin-block:10px;
+        justify-content:space-between;
+
        }
        .book-info .add-to-cart{
          padding:10px;
