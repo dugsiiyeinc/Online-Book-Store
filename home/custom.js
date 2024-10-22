@@ -39,7 +39,7 @@ function showBooks(slideIndex) {
             <div class="book-detail">
             <h3>${book.bookTitle}</h3>
             <p class="author">Author: ${book.bookAuthor}</p>
-            <p class="author">${book.bookDescription}</p>
+            <p class="desc">${book.bookDescription}</p>
                <div class="stars">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
