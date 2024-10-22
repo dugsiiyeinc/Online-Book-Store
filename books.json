@@ -1,5 +1,71 @@
 [
     {
+        "bookTitle": "How to Win Friends",
+        "bookImage": "https://m.media-amazon.com/images/I/71Y5RyRoxuL._AC_UF1000,1000_QL80_.jpg",
+        "bookCategory": "Self-help",
+        "bookPages": 291,
+        "bookPrice": 14.99,
+        "bookDescription" : "A classic guide to interpersonal skills and relationship building.",
+        "bookDetails": "Dale Carnegie provides practical advice on how to improve your social skills, influence others, and achieve success in both personal and professional relationships. This classic self-help book emphasizes the power of empathy, listening, and effective communication.",
+        "bookAuthor": "Dale Carnegie",
+        "bookYear": 1936
+    },
+    {
+        "bookTitle": "7 Habits",
+        "bookImage": "https://cdn11.bigcommerce.com/s-gjd9kmzlkz/images/stencil/1280x1280/products/10042/33274/7_habits__92713.1714596960.jpg?c=1",
+        "bookCategory": "Self-help",
+        "bookPages": 381,
+        "bookPrice": 17.99,
+        "bookDescription" : "A framework for personal and professional effectiveness.",
+        "bookDetails": "Stephen R. Covey outlines seven key habits that can transform your life, from being proactive to thinking win-win and seeking first to understand. His holistic approach to personal development focuses on principles that lead to long-term success and fulfillment in both your personal and professional life.",
+        "bookAuthor": "Stephen R. Covey",
+        "bookYear": 1989
+    },
+    {
+        "bookTitle": "Mythical Man-Month",
+        "bookImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPJzT0dCVWXODXiaoqehSvjoAI75gXYjJIFA&s",
+        "bookCategory": "Programming",
+        "bookPages": 322,
+        "bookPrice": 27.99,
+        "bookDescription" : "Insights on software project management and teamwork.",
+        "bookDetails": "Frederick P. Brooks Jr. provides insights into the challenges of managing large-scale software projects. The book’s central theme, the 'mythical man-month,' explores the fallacy that adding more developers to a late project will speed up its completion, and offers timeless advice on avoiding pitfalls in software development.",
+        "bookAuthor": "Frederick P. Brooks Jr.",
+        "bookYear": 1975
+    },
+    {
+        "bookTitle": "Educated",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/81WojUxbbFL.jpg",
+        "bookCategory": "Biography",
+        "bookPages": 334,
+        "bookPrice": 15.99,
+        "bookDescription" : "A memoir about a woman's quest for knowledge and self-discovery.",
+        "bookDetails": "Tara Westover tells her extraordinary story of growing up in a strict, isolated household in rural Idaho with no formal education. Eventually, she escapes her oppressive environment and pursues education, earning a PhD from Cambridge University. Her memoir reflects on the power of knowledge, family, and identity.",
+        "bookAuthor": "Tara Westover",
+        "bookYear": 2018
+    },
+    {
+        "bookTitle": "Subtle Art",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/71QKQ9mwV7L.jpg",
+        "bookCategory": "Self-help",
+        "bookPages": 224,
+        "bookPrice": 14.99,
+        "bookDescription" : "A counterintuitive approach to living a good life.",
+        "bookDetails": "Mark Manson offers a fresh perspective on personal development by challenging the obsession with positivity. He advocates for accepting life's struggles and focusing on what truly matters. The book provides practical advice for setting boundaries and finding fulfillment in the face of adversity.",
+        "bookAuthor": "Mark Manson",
+        "bookYear": 2016
+    },
+    {
+        "bookTitle": "Self-Taught Programmer",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/51+Z8QVq+WL._AC_UL210_SR210,210_.jpg",
+        "bookCategory": "Programming",
+        "bookPages": 299,
+        "bookPrice": 24.99,
+        "bookDescription" : "A guide for aspiring programmers to learn effectively on their own.",
+        "bookDetails": "Cory Althoff shares his journey of learning to program on his own and offers a roadmap for others who want to do the same. The book covers essential programming concepts, practical coding skills, and advice on getting started in the tech industry, making it a valuable resource for beginners.",
+        "bookAuthor": "Cory Althoff",
+        "bookYear": 2018
+    },
+    {
         "bookTitle": "Lean Startup",
         "bookImage": "https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg",
         "bookCategory": "Business",
@@ -108,71 +174,6 @@
         "bookDetails": "Stephen Hawking explains complex concepts such as black holes, the Big Bang, and the nature of time in an accessible way. This classic book on theoretical physics brings deep scientific insights to a broad audience, addressing fundamental questions about the universe's origin, structure, and eventual fate.",
         "bookAuthor": "Stephen Hawking",
         "bookYear": 1988
-    },
-    {
-        "bookTitle": "How to Win Friends",
-        "bookImage": "https://m.media-amazon.com/images/I/71Y5RyRoxuL._AC_UF1000,1000_QL80_.jpg",
-        "bookCategory": "Self-help",
-        "bookPages": 291,
-        "bookPrice": 14.99,
-        "bookDescription" : "A classic guide to interpersonal skills and relationship building.",
-        "bookDetails": "Dale Carnegie provides practical advice on how to improve your social skills, influence others, and achieve success in both personal and professional relationships. This classic self-help book emphasizes the power of empathy, listening, and effective communication.",
-        "bookAuthor": "Dale Carnegie",
-        "bookYear": 1936
-    },
-    {
-        "bookTitle": "7 Habits",
-        "bookImage": "https://cdn11.bigcommerce.com/s-gjd9kmzlkz/images/stencil/1280x1280/products/10042/33274/7_habits__92713.1714596960.jpg?c=1",
-        "bookCategory": "Self-help",
-        "bookPages": 381,
-        "bookPrice": 17.99,
-        "bookDescription" : "A framework for personal and professional effectiveness.",
-        "bookDetails": "Stephen R. Covey outlines seven key habits that can transform your life, from being proactive to thinking win-win and seeking first to understand. His holistic approach to personal development focuses on principles that lead to long-term success and fulfillment in both your personal and professional life.",
-        "bookAuthor": "Stephen R. Covey",
-        "bookYear": 1989
-    },
-    {
-        "bookTitle": "Mythical Man-Month",
-        "bookImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPJzT0dCVWXODXiaoqehSvjoAI75gXYjJIFA&s",
-        "bookCategory": "Programming",
-        "bookPages": 322,
-        "bookPrice": 27.99,
-        "bookDescription" : "Insights on software project management and teamwork.",
-        "bookDetails": "Frederick P. Brooks Jr. provides insights into the challenges of managing large-scale software projects. The book’s central theme, the 'mythical man-month,' explores the fallacy that adding more developers to a late project will speed up its completion, and offers timeless advice on avoiding pitfalls in software development.",
-        "bookAuthor": "Frederick P. Brooks Jr.",
-        "bookYear": 1975
-    },
-    {
-        "bookTitle": "Educated",
-        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/81WojUxbbFL.jpg",
-        "bookCategory": "Biography",
-        "bookPages": 334,
-        "bookPrice": 15.99,
-        "bookDescription" : "A memoir about a woman's quest for knowledge and self-discovery.",
-        "bookDetails": "Tara Westover tells her extraordinary story of growing up in a strict, isolated household in rural Idaho with no formal education. Eventually, she escapes her oppressive environment and pursues education, earning a PhD from Cambridge University. Her memoir reflects on the power of knowledge, family, and identity.",
-        "bookAuthor": "Tara Westover",
-        "bookYear": 2018
-    },
-    {
-        "bookTitle": "Subtle Art",
-        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/71QKQ9mwV7L.jpg",
-        "bookCategory": "Self-help",
-        "bookPages": 224,
-        "bookPrice": 14.99,
-        "bookDescription" : "A counterintuitive approach to living a good life.",
-        "bookDetails": "Mark Manson offers a fresh perspective on personal development by challenging the obsession with positivity. He advocates for accepting life's struggles and focusing on what truly matters. The book provides practical advice for setting boundaries and finding fulfillment in the face of adversity.",
-        "bookAuthor": "Mark Manson",
-        "bookYear": 2016
-    },
-    {
-        "bookTitle": "Self-Taught Programmer",
-        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/51+Z8QVq+WL._AC_UL210_SR210,210_.jpg",
-        "bookCategory": "Programming",
-        "bookPages": 299,
-        "bookPrice": 24.99,
-        "bookDescription" : "A guide for aspiring programmers to learn effectively on their own.",
-        "bookDetails": "Cory Althoff shares his journey of learning to program on his own and offers a roadmap for others who want to do the same. The book covers essential programming concepts, practical coding skills, and advice on getting started in the tech industry, making it a valuable resource for beginners.",
-        "bookAuthor": "Cory Althoff",
-        "bookYear": 2018
     }
+  
 ]
