@@ -194,20 +194,24 @@
     display: flex;
     justify-content: center;
     gap:2rem;
-    margin-top: 20px;
-}
+ }
 
 .navigation-buttons button {
-    border: 2px solid #fff;
-    background-color:#ff7700;
-    color: #fff;
+    border: 2px solid var(--colorYellowGold);
+     color: var(--colorblackblue);
      padding: 10px 20px;
     margin: 0 10px;
     cursor: pointer;
     border-radius: 5px;
     font-weight: bold;
     font-size:18px;
+    transition:0.3s;
 }
+.navigation-buttons button:hover{
+    background-color:var(--colorYellowGold);
+    color:#fff;
+}
+
   
 
 }
