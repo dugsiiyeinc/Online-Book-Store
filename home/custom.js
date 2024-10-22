@@ -1,6 +1,6 @@
 let books = [];
-let booksPerPage =  window.innerWidth <= 768 ? 1 :4; 
-const totalBooks = 12;
+let booksPerPage =  window.innerWidth <= 768 ? 1 :3; 
+const totalBooks = 9;
 let currentSlide = 1;  
 
 async function fetchBooks() {
