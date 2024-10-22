@@ -17,3 +17,13 @@ closeMenu.addEventListener('click', () => {
 });
 
 
+openMenu.addEventListener('click', () => {
+    heroSection.classList.add("blur");
+    console.log("cool")
+});
+closeMenu.addEventListener('click', () => {
+    heroSection.classList.remove("blur");
+    console.log("cool")
+});
+
+

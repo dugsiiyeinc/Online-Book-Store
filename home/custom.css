@@ -229,7 +229,14 @@ header nav .btns .register:hover {
     right: 0;
     z-index: 999;
   }
+  #hero{
+    transition: filter 0.7s ease-in-out, opacity 0.7s ease-in-out !important;
 
+  }
+  #hero.blur {
+    filter: blur(2px);
+    opacity: 0.8;
+  }
   .mobileScreens ul {
     display: flex;
     flex-direction: column;
