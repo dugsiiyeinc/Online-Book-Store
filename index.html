@@ -21,7 +21,6 @@
 
 
 
-<!-- Best sellers Section -->
 <body>
     <header>
         <div class="container">
@@ -49,7 +48,7 @@
             <div class="logo">
                 <a href="/index.html">Book<span>Nest</span></a>
             </div>
-            <ul class="">
+            <ul>
                 <li><a href="#">home</a></li>
                 <li><a href="#">about</a></li>
                 <li><a href="#">shop</a></li>
@@ -82,12 +81,36 @@
                 </div>
                 <div class="contentHero-img" id="contentHero-img">
                     <img src="/images/image-01.png" alt="man holding a book" class="img" />
-                </div>
-               
+                </div>            
             </div>
-
         </div>
     </section>
+  
+<!-- Best sellers Section -->
+<section class="best-sellers">
+    <div class="container">
+        <div class="section-title">
+            <h1>Books</h1>
+            <p>Best Selling Books</p>
+         </div> 
+         <div class="slider-container">
+            <div id="slider" class="slider">
+                <!-- Books here-->                 
+             </div>
+        </div>  
+        <div class="slider-dots">
+            <span class="dot" onclick="onDotClick(0)"></span> 
+           <span class="dot active" onclick="onDotClick(1)"></span>  
+           <span class="dot" onclick="onDotClick(2)"></span>   
+       </div>   
+       <div class="navigation-buttons">
+    <button id="prevButton" onclick="prevSlide()">Prev</button>
+    <button id="nextButton" onclick="nextSlide()">Next</button>
+</div>      
+        </div>
+    
+</section>
+  
 </body>
 
 </html>

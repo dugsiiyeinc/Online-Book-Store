@@ -1,3 +1,6 @@
+
+
+/* ===  start  header and hero ==== */
 :root {
   --colorYellowGold: #ff7700;
   --colorblackblue: #0d2537;
@@ -298,3 +301,216 @@ header nav .btns .register:hover {
     font-size: 1rem;
   }
 }
+
+/* ===  Start Section Best-sellers === */
+
+.best-sellers{
+    width:100%;
+    height:100vh;
+    background-color:#f5f5f5;
+}
+.best-sellers .container{
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+    align-items:center;
+}
+.best-sellers .container .section-title{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:5px;
+}
+.section-title h1{
+    fon-size:3rem;
+    font-weight:800;
+    color:#ff7700;
+}
+.section-title p{
+    font-size:20px;
+    font-weight:bold;
+    color:#0d2537;
+}
+/* .container .slider-container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+} */
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.book {
+    width: 33%; 
+    height:300px;
+    background:#fff;
+    box-shadow:0px 7px 29px 0px  rgba(100, 100, 111, 0.2) ;
+    border-radius: 10px 0 0 10px;
+    display:flex; 
+    gap:10px;
+    box-sizing: border-box;
+     margin: 10px; 
+    transition: transform 0.2s;
+ }
+
+.book img {
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.8s;
+    border-radius: 10px 0 0 10px;
+}
+.book-detail{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+     justify-content:center;
+}
+.book-detail h3 {
+     color:#0d2537;
+ }
+
+.author {
+    font-size:12px;
+    color: #0d2537; 
+}
+.desc{
+    font-size:14px;
+    color:var(--colorblueblack);
+}
+.rate{
+    color:var(--colorYellowGold);
+}
+.price{
+    font-size:18px;
+    font-weight:bold;
+     color:var(--colorblueblack)
+}
+.book-info{
+    display:flex;
+    gap:3px;
+     align-items:center;
+    margin-top:20px;
+    font-size:12px;
+   }
+
+.book-info .add-to-cart{
+    background-color:#21758f;
+    padding: 3px;
+    border:none;
+    color:#fff;
+    transition:0.5s;
+    cursor:pointer;
+  
+}
+.book-info .view{
+    background-color:#fff;
+    color:#21758f;
+    border:1px solid #21758f;
+    padding: 3px;
+    transition:0.5s;
+    cursor:pointer;
+
+
+}
+.book-info .add-to-cart:hover{
+    background-color:var(--colorblackblue);
+    color:#fff;
+ 
+ }
+ .book-info .view:hover{
+    background-color:var(--colorYellowGold);
+    color:#fff;
+    border:none;
+ }
+ .slider-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    border:2px solid var( --colorblackblue);
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot.active {
+    background-color: #f9991d;
+
+}
+.navigation-buttons {
+    display:none;
+}
+
+@media (max-width:992px){
+    .best-sellers{
+        width:100%;
+        max-height:auto;
+    }
+    .slider {
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .slider-dots{
+        display:none;
+    }
+    .book{
+        width:100%;
+        height:auto;
+        flex-direction:column;
+        justify-content:center;
+        border-radius: 10px 10px 0 0;
+      }
+    .book img{
+        width:100%;
+        height:300px;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+      }
+     .book-detail{
+          gap:5px;
+         padding: 0 1rem;
+     }
+    .book-info{
+        margin-block:10px;
+        justify-content:space-between;
+
+       }
+       .book-info .add-to-cart{
+         padding:10px;
+      
+    }
+    .book-info .view{
+        padding:10px;
+    }
+     
+    .navigation-buttons {
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+ }
+
+.navigation-buttons button {
+    border: 2px solid var(--colorYellowGold);
+     color: var(--colorblackblue);
+     padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size:18px;
+    transition:0.3s;
+}
+.navigation-buttons button:hover{
+    background-color:var(--colorYellowGold);
+    color:#fff;
+}
+
+  
+
+}
+
+

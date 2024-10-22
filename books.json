@@ -1,0 +1,207 @@
+[
+    {
+        "bookTitle": "How to Win Friends",
+        "bookImage": "https://m.media-amazon.com/images/I/71Y5RyRoxuL._AC_UF1000,1000_QL80_.jpg",
+        "bookCategory": "Self-help",
+        "bookPages": 291,
+        "bookPrice": 14.99,
+        "bookDescription" : "A classic guide to interpersonal skills and relationship building.",
+        "bookDetails": "Dale Carnegie provides practical advice on how to improve your social skills, influence others, and achieve success in both personal and professional relationships. This classic self-help book emphasizes the power of empathy, listening, and effective communication.",
+        "bookAuthor": "Dale Carnegie",
+        "bookYear": 1936,
+        "bookRate" : 4.5
+
+    },
+    {
+        "bookTitle": "7 Habits",
+        "bookImage": "https://cdn11.bigcommerce.com/s-gjd9kmzlkz/images/stencil/1280x1280/products/10042/33274/7_habits__92713.1714596960.jpg?c=1",
+        "bookCategory": "Self-help",
+        "bookPages": 381,
+        "bookPrice": 17.99,
+        "bookDescription" : "A framework for personal and professional effectiveness.",
+        "bookDetails": "Stephen R. Covey outlines seven key habits that can transform your life, from being proactive to thinking win-win and seeking first to understand. His holistic approach to personal development focuses on principles that lead to long-term success and fulfillment in both your personal and professional life.",
+        "bookAuthor": "Stephen R. Covey",
+        "bookYear": 1989,
+        "bookRate" : 4.3
+    },
+    {
+        "bookTitle": "Mythical Man-Month",
+        "bookImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPJzT0dCVWXODXiaoqehSvjoAI75gXYjJIFA&s",
+        "bookCategory": "Programming",
+        "bookPages": 322,
+        "bookPrice": 27.99,
+        "bookDescription" : "Insights on software project management and teamwork.",
+        "bookDetails": "Frederick P. Brooks Jr. provides insights into the challenges of managing large-scale software projects. The book’s central theme, the 'mythical man-month,' explores the fallacy that adding more developers to a late project will speed up its completion, and offers timeless advice on avoiding pitfalls in software development.",
+        "bookAuthor": "Frederick P. Brooks Jr.",
+        "bookYear": 1975,
+        "bookRate" : 4.1
+
+    },
+    {
+        "bookTitle": "Educated",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/81WojUxbbFL.jpg",
+        "bookCategory": "Biography",
+        "bookPages": 334,
+        "bookPrice": 15.99,
+        "bookDescription" : "A memoir about a woman's quest for knowledge and self-discovery.",
+        "bookDetails": "Tara Westover tells her extraordinary story of growing up in a strict, isolated household in rural Idaho with no formal education. Eventually, she escapes her oppressive environment and pursues education, earning a PhD from Cambridge University. Her memoir reflects on the power of knowledge, family, and identity.",
+        "bookAuthor": "Tara Westover",
+        "bookYear": 2018,
+        "bookRate" : 4.4
+
+    },
+    {
+        "bookTitle": "Subtle Art",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/71QKQ9mwV7L.jpg",
+        "bookCategory": "Self-help",
+        "bookPages": 224,
+        "bookPrice": 14.99,
+        "bookDescription" : "A counterintuitive approach to living a good life.",
+        "bookDetails": "Mark Manson offers a fresh perspective on personal development by challenging the obsession with positivity. He advocates for accepting life's struggles and focusing on what truly matters. The book provides practical advice for setting boundaries and finding fulfillment in the face of adversity.",
+        "bookAuthor": "Mark Manson",
+        "bookYear": 2016,
+         "bookRate" : 4.5
+            
+        
+        
+    },
+    {
+        "bookTitle": "Self-Taught Programmer",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/51+Z8QVq+WL._AC_UL210_SR210,210_.jpg",
+        "bookCategory": "Programming",
+        "bookPages": 299,
+        "bookPrice": 24.99,
+        "bookDescription" : "A guide for aspiring programmers to learn effectively on their own.",
+        "bookDetails": "Cory Althoff shares his journey of learning to program on his own and offers a roadmap for others who want to do the same. The book covers essential programming concepts, practical coding skills, and advice on getting started in the tech industry, making it a valuable resource for beginners.",
+        "bookAuthor": "Cory Althoff",
+        "bookYear": 2018,
+        "bookRate" : 3.5
+
+    },
+    {
+        "bookTitle": "Lean Startup",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg",
+        "bookCategory": "Business",
+        "bookPages": 320,
+        "bookPrice": 29.99,
+        "bookDescription" : " A guide to building successful startups using lean principles.",
+        "bookDetails": "Eric Ries presents a systematic, scientific approach to creating and managing successful startups. The Lean Startup method focuses on rapid experimentation, continuous learning, and adapting to customer feedback to ensure that new businesses can succeed with minimal wasted effort.",
+        "bookAuthor": "Eric Ries",
+        "bookYear": 2011,
+        "bookRate" : 4.4
+
+    },
+    {
+        "bookTitle": "Thinking Fast and Slow",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/71HMyqG6MRL.jpg",
+        "bookCategory": "Psychology",
+        "bookPages": 499,
+        "bookPrice": 14.99,
+        "bookDescription" : " A deep dive into the dual systems of thought that drive our decisions.",
+        "bookDetails": "Daniel Kahneman explores the two modes of thinking that govern how we make decisions: System 1, which is fast and instinctive, and System 2, which is slower and more analytical. The book explains how these systems shape our judgments and choices, often in ways we're not aware of, providing insights into human behavior and cognition.",
+        "bookAuthor": "Daniel Kahneman",
+        "bookYear": 2011,
+        "bookRate" : 4.6
+    },
+    {
+        "bookTitle": "Clean Code",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX258_BO1,204,203,200_.jpg",
+        "bookCategory": "Programming",
+        "bookPages": 464,
+        "bookPrice": 34.99,
+        "bookDescription" : " A guide to writing code that is easy to read, maintain, and extend.",
+        "bookDetails": "Robert C. Martin provides a deep dive into the principles of writing clean, efficient, and maintainable code. He offers practical advice on how to refactor bad code and prevent technical debt, ensuring that software projects remain sustainable and scalable in the long term.",
+        "bookAuthor": "Robert C. Martin",
+        "bookYear": 2008,
+        "bookRate" : 4.2
+
+    },
+    {
+        "bookTitle": "Sapiens",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/713jIoMO3UL.jpg",
+        "bookCategory": "History",
+        "bookPages": 443,
+        "bookPrice": 22.99,
+        "bookDescription" : "An exploration of the history and impact of Homo sapiens.",
+        "bookDetails": "Yuval Noah Harari traces the evolution of Homo sapiens from hunter-gatherers to modern societies. He examines how human cultures, economies, and belief systems have shaped civilizations and explores major transitions such as the Cognitive Revolution and the Agricultural Revolution that have defined our species' dominance on Earth.",
+        "bookAuthor": "Yuval Noah Harari",
+        "bookYear": 2011,
+        "bookRate" : 3.5
+
+    },
+    {
+        "bookTitle": "Pragmatic Programmer",
+        "bookImage": "https://m.media-amazon.com/images/I/61ztlXgCmpL._AC_UF1000,1000_QL80_.jpg",
+        "bookCategory": "Programming",
+        "bookPages": 352,
+        "bookPrice": 39.99,
+        "bookDescription" : "Essential advice for software developers to enhance their craft.",
+        "bookDetails": "Andrew Hunt and David Thomas offer a collection of practical tips and techniques that guide developers in becoming better programmers. From learning how to automate repetitive tasks to mastering the art of debugging, this book empowers developers to take a more proactive approach to software craftsmanship.",
+        "bookAuthor": "Andrew and David ",
+        "bookYear": 1999,
+        "bookRate" : 4.3
+
+    },
+    {
+        "bookTitle": "Elon Musk",
+        "bookImage": "https://m.media-amazon.com/images/I/81SlrVsShvL._AC_UF1000,1000_QL80_.jpg",
+        "bookCategory": "Biography",
+        "bookPages": 392,
+        "bookPrice": 18.99,
+        "bookDescription" : "A biography of the visionary entrepreneur behind Tesla and SpaceX.",
+        "bookDetails": "Ashlee Vance delves into the life of Elon Musk, chronicling his journey from a troubled childhood in South Africa to his role as one of the most influential innovators of the 21st century. The biography examines Musk's relentless ambition and his impact on industries ranging from electric vehicles to space exploration.",
+        "bookAuthor": "Ashlee Vance",
+        "bookYear": 2015,
+        "bookRate" : 4.5
+    },
+    {
+        "bookTitle": "Atomic Habits",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/91bYsX41DVL.jpg",
+        "bookCategory": "Self-help",
+        "bookPages": 320,
+        "bookPrice": 16.99,
+        "bookDescription" : "A guide to building good habits and breaking bad ones.",
+        "bookDetails": "James Clear explains how small, incremental changes can lead to profound improvements in your life. He offers a comprehensive framework for understanding how habits form and how to reshape them, helping readers achieve their goals and make lasting positive changes.",
+        "bookAuthor": "James Clear",
+        "bookYear": 2018,
+        "bookRate" : 4.1
+
+    },
+    {
+        "bookTitle": "Zero to One",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/71m-MxdJ2WL.jpg",
+        "bookCategory": "Business",
+        "bookPages": 224,
+        "bookPrice": 24.99,
+        "bookDescription" : "Insights on building innovative startups from scratch.",
+        "bookDetails": "Peter Thiel shares his philosophy on building groundbreaking startups. He encourages entrepreneurs to aim for creating something truly new, instead of merely improving existing products, and discusses the importance of finding monopolistic opportunities in business to ensure lasting success.",
+        "bookAuthor": "Peter Thiel",
+        "bookYear": 2014,
+        "bookRate" : 5.0
+    },
+    {
+        "bookTitle": "Rich Dad Poor Dad",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/I/81bsw6fnUiL.jpg",
+        "bookCategory": "Personal Finance",
+        "bookPages": 256,
+        "bookPrice": 19.99,
+        "bookDescription" : " A personal finance classic that contrasts two mindsets about money.",
+        "bookDetails": "Robert T. Kiyosaki compares the financial philosophies of his two father figures: his own father (the Poor Dad), who worked hard for money, and his best friend’s father (the Rich Dad), who made money work for him. The book emphasizes the importance of financial literacy, investing, and building wealth through smart financial strategies.",
+        "bookAuthor": "Robert T. Kiyosaki",
+        "bookYear": 1997,
+        "bookRate" : 4.8
+    },
+    {
+        "bookTitle": "A Brief History of Time",
+        "bookImage": "https://m.media-amazon.com/images/I/81DBK93b6jL._AC_UF1000,1000_QL80_.jpg",
+        "bookCategory": "Science",
+        "bookPages": 212,
+        "bookPrice": 18.99,
+        "bookDescription" : "A landmark book on cosmology and the universe.",
+        "bookDetails": "Stephen Hawking explains complex concepts such as black holes, the Big Bang, and the nature of time in an accessible way. This classic book on theoretical physics brings deep scientific insights to a broad audience, addressing fundamental questions about the universe's origin, structure, and eventual fate.",
+        "bookAuthor": "Stephen Hawking",
+        "bookYear": 1988,
+        "bookRate" : 3.5
+    }
+  
+]
