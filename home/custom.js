@@ -36,6 +36,7 @@ function showBooks(slideIndex) {
 
          bookDiv.innerHTML = `
             <img src="${book.bookImage}" alt="${book.bookTitle}" />
+            <div class="book-detail">
             <h3>${book.bookTitle}</h3>
             <p>Author: ${book.bookAuthor}</p>
                <div class="stars">
@@ -48,6 +49,7 @@ function showBooks(slideIndex) {
               <div class="book-info">
                 <p class="price">$${book.bookPrice}</p>
                 <button class="add-to-cart">Add to Cart</button>
+            </div>
             </div>
         `;
 
