@@ -176,8 +176,15 @@
     .book-info{
         margin-top:10px;
         gap:1rem;
+        padding:1rem;
        }
-    
+       .book-info .add-to-cart{
+         padding:10px;
+      
+    }
+    .book-info .view{
+        padding:10px;
+    }
      
     .navigation-buttons {
     display: flex;
