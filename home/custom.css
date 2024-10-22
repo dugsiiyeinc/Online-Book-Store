@@ -157,7 +157,28 @@
     }
     .book{
         width:100%;
+        height:auto;
+        flex-direction:column;
+        justify-content:center;
+      }
+    .book img{
+        width:100%;
+        height:300px;
+        object-fit: cover;
+     }
+     .book-detail{
+         align-items:center;
+         gap:5px;
+     }
+     .desc{
+         text-align:center;
     }
+    .book-info{
+        margin-top:10px;
+        gap:1rem;
+       }
+    
+     
     .navigation-buttons {
     display: flex;
     justify-content: center;
