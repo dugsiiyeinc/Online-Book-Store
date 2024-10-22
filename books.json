@@ -5,6 +5,7 @@
         "bookCategory": "Business",
         "bookPages": 320,
         "bookPrice": 29.99,
+        "bookDescription" : " A guide to building successful startups using lean principles.",
         "bookAuthor": "Eric Ries",
         "bookYear": 2011
     },
@@ -14,6 +15,7 @@
         "bookCategory": "Psychology",
         "bookPages": 499,
         "bookPrice": 14.99,
+        "bookDescription" : " A deep dive into the dual systems of thought that drive our decisions.",
         "bookAuthor": "Daniel Kahneman",
         "bookYear": 2011
     },
@@ -23,6 +25,7 @@
         "bookCategory": "Programming",
         "bookPages": 464,
         "bookPrice": 34.99,
+        "bookDescription" : " A guide to writing code that is easy to read, maintain, and extend.",
         "bookAuthor": "Robert C. Martin",
         "bookYear": 2008
     },
@@ -32,6 +35,7 @@
         "bookCategory": "History",
         "bookPages": 443,
         "bookPrice": 22.99,
+        "bookDescription" : "An exploration of the history and impact of Homo sapiens.",
         "bookAuthor": "Yuval Noah Harari",
         "bookYear": 2011
     },
@@ -41,6 +45,7 @@
         "bookCategory": "Programming",
         "bookPages": 352,
         "bookPrice": 39.99,
+        "bookDescription" : "Essential advice for software developers to enhance their craft.",
         "bookAuthor": "Andrew and David ",
         "bookYear": 1999
     },
@@ -50,6 +55,7 @@
         "bookCategory": "Biography",
         "bookPages": 392,
         "bookPrice": 18.99,
+        "bookDescription" : "A biography of the visionary entrepreneur behind Tesla and SpaceX.",
         "bookAuthor": "Ashlee Vance",
         "bookYear": 2015
     },
@@ -59,6 +65,7 @@
         "bookCategory": "Self-help",
         "bookPages": 320,
         "bookPrice": 16.99,
+        "bookDescription" : "A guide to building good habits and breaking bad ones.",
         "bookAuthor": "James Clear",
         "bookYear": 2018
     },
@@ -68,6 +75,7 @@
         "bookCategory": "Business",
         "bookPages": 224,
         "bookPrice": 24.99,
+        "bookDescription" : "Insights on building innovative startups from scratch.",
         "bookAuthor": "Peter Thiel",
         "bookYear": 2014
     },
@@ -77,6 +85,7 @@
         "bookCategory": "Science",
         "bookPages": 256,
         "bookPrice": 19.99,
+        "bookDescription" : " A personal finance classic that contrasts two mindsets about money.",
         "bookAuthor": "Stephen Hawking",
         "bookYear": 2018
     },
@@ -86,6 +95,7 @@
         "bookCategory": "Science",
         "bookPages": 212,
         "bookPrice": 18.99,
+        "bookDescription" : "A landmark book on cosmology and the universe.",
         "bookAuthor": "Stephen Hawking",
         "bookYear": 1988
     },
@@ -95,6 +105,7 @@
         "bookCategory": "Self-help",
         "bookPages": 291,
         "bookPrice": 14.99,
+        "bookDescription" : "A classic guide to interpersonal skills and relationship building.",
         "bookAuthor": "Dale Carnegie",
         "bookYear": 1936
     },
@@ -104,6 +115,7 @@
         "bookCategory": "Self-help",
         "bookPages": 381,
         "bookPrice": 17.99,
+        "bookDescription" : "A framework for personal and professional effectiveness.",
         "bookAuthor": "Stephen R. Covey",
         "bookYear": 1989
     },
@@ -113,6 +125,7 @@
         "bookCategory": "Programming",
         "bookPages": 322,
         "bookPrice": 27.99,
+        "bookDescription" : "Insights on software project management and teamwork.",
         "bookAuthor": "Frederick P. Brooks Jr.",
         "bookYear": 1975
     },
@@ -122,6 +135,7 @@
         "bookCategory": "Biography",
         "bookPages": 334,
         "bookPrice": 15.99,
+        "bookDescription" : "A memoir about a woman's quest for knowledge and self-discovery.",
         "bookAuthor": "Tara Westover",
         "bookYear": 2018
     },
@@ -131,6 +145,7 @@
         "bookCategory": "Self-help",
         "bookPages": 224,
         "bookPrice": 14.99,
+        "bookDescription" : "A counterintuitive approach to living a good life.",
         "bookAuthor": "Mark Manson",
         "bookYear": 2016
     },
@@ -140,6 +155,7 @@
         "bookCategory": "Programming",
         "bookPages": 299,
         "bookPrice": 24.99,
+        "bookDescription" : "A guide for aspiring programmers to learn effectively on their own.",
         "bookAuthor": "Cory Althoff",
         "bookYear": 2018
     }
