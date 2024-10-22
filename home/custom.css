@@ -63,23 +63,26 @@
     transform: scale(1); 
 }
 
+ 
 .book-detail{
     display:flex;
     flex-direction:column;
     gap:10px;
      justify-content:center;
 }
-.book h3 {
+.book-detail h3 {
     color:#0d2537;
  }
 
-.book p {
+.author {
+    font-size:12px;
     color: #0d2537; 
 }
 .stars{
     color:var(--colorYellowGold);
 }
 .price{
+    font-size:18px;
     font-weight:bold;
      color:var(--colorblackblue)
 }
