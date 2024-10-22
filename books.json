@@ -82,12 +82,12 @@
     {
         "bookTitle": "Rich Dad Poor Dad",
         "bookImage": "https://images-na.ssl-images-amazon.com/images/I/81bsw6fnUiL.jpg",
-        "bookCategory": "Science",
+        "bookCategory": "Personal Finance",
         "bookPages": 256,
         "bookPrice": 19.99,
         "bookDescription" : " A personal finance classic that contrasts two mindsets about money.",
-        "bookAuthor": "Stephen Hawking",
-        "bookYear": 2018
+        "bookAuthor": "Robert T. Kiyosaki",
+        "bookYear": 1997
     },
     {
         "bookTitle": "A Brief History of Time",
