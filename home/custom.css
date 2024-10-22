@@ -83,18 +83,16 @@
     display:flex;
     justify-content:space-between;
     align-items:center;
-    margin-top:15px;
+    margin-top:20px;
     padding:10px;
-    border-top:1px solid #fff;
-}
+ }
 .book-info .price{
     font-weight:bold;
-    font-size:20px;
-    color:var(--colorblackblue)
+     color:var(--colorblackblue)
 }
 .book-info .add-to-cart{
     background-color:#0d2537;
-    padding:6px 8px;
+    padding:6px;
     border:none;
     color:#fff;
     font-size:18px;
