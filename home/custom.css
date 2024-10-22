@@ -31,11 +31,11 @@
     font-weight:bold;
     color:#0d2537;
 }
-.container .slider-container {
+/* .container .slider-container {
     width: 100%;
     margin: auto;
     overflow: hidden;
-}
+} */
 .slider {
     display: flex;
     transition: transform 0.5s ease;
@@ -55,7 +55,7 @@
 
 .book img {
     width: 150px;
-    height: 300px;
+    height: 100%;
     object-fit: cover;
     transition: transform 0.8s;
     border-radius: 10px 0 0 10px;
@@ -78,7 +78,7 @@
     font-size:14px;
     color:var(--colorblueblack);
 }
-.stars{
+.rate{
     color:var(--colorYellowGold);
 }
 .price{
@@ -171,8 +171,9 @@
         border-radius: 10px 10px 0 0;
       }
      .book-detail{
-         align-items:center;
+         /* align-items:center; */
          gap:5px;
+         padding: 0 1rem;
      }
      .desc{
          text-align:center;
