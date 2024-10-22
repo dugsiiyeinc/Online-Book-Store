@@ -63,10 +63,15 @@
     box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
 }
 
+.book-detail{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+     justify-content:center;
+}
 .book h3 {
     color:#0d2537;
-     margin: 10px 0; 
-}
+ }
 
 .book p {
     color: #0d2537; 
