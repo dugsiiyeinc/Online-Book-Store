@@ -1,0 +1,23 @@
+:root {
+    --colorYellowGold: #ff7700;
+    --colorblackblue: #0d2537;
+    --colorblueblack: #21758f;
+  }
+.book-details{
+    width:100%;
+    height:100vh;
+    display:flex;
+}
+.book-details .book-image{
+    width:50%;
+    height:100%;
+    background-color:var(--colorblackblue);
+
+
+
+}
+.book-details .book-information{
+    width:50%;
+    height:100%;
+    background-color:#fff;
+}
