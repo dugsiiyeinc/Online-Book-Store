@@ -17,10 +17,10 @@ async function fetchBookDetails() {
         document.querySelector('.book-image').innerHTML = `<img src="${book.bookImage}" alt="${book.bookTitle}">`;
         document.querySelector('.book-information').innerHTML = `
             <h1>${book.bookTitle}</h1>
-            <p>Author: ${book.bookAuthor}</p>
-             <p>${book.bookDescription}</p>
-            <p>${book.bookDetails}</p>
-            <p>Price: $${book.bookPrice}</p>
+            <p class="bookauthor">Author: ${book.bookAuthor}</p>
+             <p class="bookdesc">${book.bookDescription}</p>
+            <p class="bookdetail">${book.bookDetails}</p>
+            <p class="bookprice">Price: $${book.bookPrice}</p>
             <div class="rate">
                 <i class="fa-solid fa-star"></i>
                 <span>(${book.bookRate})</span>
