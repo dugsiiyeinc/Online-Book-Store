@@ -13,6 +13,23 @@ async function fetchBookDetails() {
 
     const book = books.find((b) => b.bookId === bookId);
     console.log("Found book:", book);
+    if (book) {
+        document.querySelector('.book-image').innerHTML = `<img src="${book.bookImage}" alt="${book.bookTitle}">`;
+        document.querySelector('.book-information').innerHTML = `
+            <h1>${book.bookTitle}</h1>
+            <p>Author: ${book.bookAuthor}</p>
+             <p>${book.bookDescription}</p>
+            <p>${book.bookDetails}</p>
+            <p>Price: $${book.bookPrice}</p>
+            <div class="rate">
+                <i class="fa-solid fa-star"></i>
+                <span>(${book.bookRate})</span>
+            </div>
+        `;
+    } else {
+        console.error("Book not found");
+    }
+
   } catch (error) {
     console.error("Error fetching book details:", error);
   }
