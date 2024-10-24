@@ -20,6 +20,7 @@
     width:50%;
     height:auto;
     box-shadow: 0px 7px 29px 0px  rgba(100, 100, 111, 0.1);
+    transition:transform 0.5s;
 }
 .book-details .book-image img:hover{
     transform:scale(1.1)
@@ -109,3 +110,27 @@
     background-color: #4cb2c4;
 }
   
+@media(max-width:992px){
+    .book-details{
+        width:100%;
+        height:auto;
+        flex-direction:column;
+    }
+    .book-details .book-image{
+        width:100%;
+        height:auto; 
+    }
+    .book-details .book-image img{
+        width:80%;
+        max-height:auto;
+     }
+    .book-details .book-image img:hover{
+        transform:scale(0.8)
+    }
+    .book-details .book-information{
+        width:100%;
+        height:auto;
+        background-color:#fff;
+    
+     }  
+}
