@@ -82,7 +82,7 @@
   }
   
   .quantity-btn:hover {
-    background-color: var(--colorYellowGold);
+    background-color: var(--colorblackblue);
     color:#fff;
     border: 2px solid var(--colorblueblack);
 
