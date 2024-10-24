@@ -1,0 +1,132 @@
+:root {
+    --colorYellowGold: #ff7700;
+    --colorblackblue: #0d2537;
+    --colorblueblack: #21758f;
+  }
+.book-details{
+    width:100%;
+    height:calc(100vh - 80px);
+    display:flex;
+}
+.book-details .book-image{
+    width:50%;
+    height:100%;
+    background-color:var(--colorblueblack);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.book-details .book-image img{
+    width:50%;
+    height:auto;
+     transition:transform 0.5s;
+}
+.book-details .book-image img:hover{
+    transform:scale(0.9);
+}
+.book-details .book-information{
+    width:50%;
+    height:100%;
+    background-color:#fff;
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+    padding:1rem;
+    color:var(--colorblackblue);
+
+ }
+ .book-information .bookauthor{
+     color:var(--colorblueblack)
+ }
+ .book-information .bookdesc{
+    font-size:20px;
+    font-weight:bold;
+  }
+  .book-information .bookdetail{
+    font-style:italic;
+    font-size:18px;
+  }
+  .book-information .bookprice{
+    font-size:20px;
+    font-weight:bold;
+  }
+  .quantity-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    margin-top:10px;
+
+  }
+  .quantity-container label{
+    font-size:20px;
+    color:var(--colorblackblue);
+    font-weight:bold;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .quantity-btn {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border: 2px solid var(--colorblackblue);
+    color:var(--colorblackblue) ;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .quantity-btn:hover {
+    background-color: var(--colorblackblue);
+    color:#fff;
+    border: 2px solid var(--colorblueblack);
+
+  }
+  
+  #quantity {
+    width: 40px;
+    text-align: center;
+    border: none;
+    font-size: 18px;
+  }
+  
+  .add-to-cart-btn {
+    background-color: var(--colorblueblack);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #4cb2c4;
+}
+  
+@media(max-width:992px){
+    .book-details{
+        width:100%;
+        height:auto;
+        flex-direction:column;
+    }
+    .book-details .book-image{
+        width:100%;
+        height:auto; 
+    }
+    .book-details .book-image img{
+        width:80%;
+        height:500px;
+     }
+    .book-details .book-information{
+        width:100%;
+        height:auto;
+         padding:1rem 2rem;
+    
+     }  
+}
