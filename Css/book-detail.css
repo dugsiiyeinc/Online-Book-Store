@@ -11,7 +11,7 @@
 .book-details .book-image{
     width:50%;
     height:100%;
-    background-color:var(--colorblackblue);
+    background-color:var(--colorblueblack);
     display:flex;
     align-items:center;
     justify-content:center;
@@ -19,7 +19,10 @@
 .book-details .book-image img{
     width:50%;
     height:auto;
-    box-shadow: 0px 7px 29px 0px  rgba(100, 100, 111, 0.2);
+    box-shadow: 0px 7px 29px 0px  rgba(100, 100, 111, 0.1);
+}
+.book-details .book-image img:hover{
+    transform:scale(1.1)
 }
 .book-details .book-information{
     width:50%;
@@ -27,9 +30,23 @@
     background-color:#fff;
     display:flex;
     flex-direction:column;
-    gap:1rem;
+    gap:10px;
     padding:1rem;
     color:var(--colorblackblue);
 
  }
- 
+ .book-information .bookauthor{
+     color:var(--colorblueblack)
+ }
+ .book-information .bookdesc{
+    font-size:20px;
+    font-weight:bold;
+  }
+  .book-information .bookdetail{
+    font-style:italic;
+    font-size:18px;
+  }
+  .book-information .bookprice{
+    font-size:20px;
+    font-weight:bold;
+  }
