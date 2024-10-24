@@ -112,11 +112,14 @@ function showBooks(slideIndex) {
                 <button class="add-to-cart">
                 <i class="fa-solid fa-cart-shopping"></i>
                 Add to Cart</button>
-                <button class="view">View Detail</button>
+                <button class="view" data-id="${book.bookId}">View Detail</button>
 
             </div>
             </div>
         `;
+        bookDiv.querySelector('.view').addEventListener('click', () => {
+            window.location.href = `book-detail.html?bookId=${book.bookId}`;
+        });
 
          slider.appendChild(bookDiv);
     });
