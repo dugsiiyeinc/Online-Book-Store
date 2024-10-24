@@ -122,15 +122,15 @@
     }
     .book-details .book-image img{
         width:80%;
-        max-height:auto;
+        height:500px;
      }
     .book-details .book-image img:hover{
-        transform:scale(0.8)
+        transform:scale(0.8);
     }
     .book-details .book-information{
         width:100%;
         height:auto;
-        background-color:#fff;
+         padding:1rem 2rem;
     
      }  
 }
