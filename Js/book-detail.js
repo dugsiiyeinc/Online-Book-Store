@@ -17,3 +17,5 @@ async function fetchBookDetails() {
     console.error("Error fetching book details:", error);
   }
 }
+document.addEventListener('DOMContentLoaded', fetchBookDetails);
+
