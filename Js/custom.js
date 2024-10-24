@@ -118,7 +118,7 @@ function showBooks(slideIndex) {
             </div>
         `;
         bookDiv.querySelector('.view').addEventListener('click', () => {
-            window.location.href = `book-detail.html?bookId=${book.bookId}`;
+            window.location.href = `./html/book-detail.html?bookId=${book.bookId}`;
         });
 
          slider.appendChild(bookDiv);
