@@ -450,7 +450,7 @@ header nav .btns .register:hover {
   background: linear-gradient(to right, rgba(13, 37, 55, 0.8), rgba(13, 37, 55, 0.8)), url('https://images.unsplash.com/photo-1542012204088-49fc1ae18754?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGJvb2slMjBzdG9yZXxlbnwwfHwwfHx8MA%3D%3D') no-repeat center/cover;
   display:flex;
   align-items:center;
-  margin-bottom:50px;
+  margin-block:50px;
  }
  .cta-content{
   width:50%;
@@ -544,9 +544,11 @@ header nav .btns .register:hover {
     background-color:var(--colorYellowGold);
     color:#fff;
 }
-
+ .cta-content{
+  width:100%;
+  gap:2rem;
+   }
   
-
 }
 
 
