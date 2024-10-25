@@ -513,19 +513,26 @@ header nav .btns .register:hover {
      .feed-content .comment{
       font-size:20px;
      }
-     .feed-content span{
+     .feed-content .date{
       font-size:12px;
      }
-     .feed-content .autor-arrows{
+     .feed-content .rates, .fa-quote-left{
+      color:var(--colorblueblack);
+     }
+     .feed-content .author-arrows{
       display:flex;
       justify-content:space-between;
       align-items:center;
+      color:#fff;
      }
       .arrows{
       display:flex;
       gap:1rem;
       font-size:1.5rem;
 
+     }
+     .arrows i:hover{
+      color:var(--colorblueblack);
      }
     
 

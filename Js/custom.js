@@ -172,4 +172,52 @@ document.getElementById('nextButton').addEventListener('click', nextSlide);
 document.getElementById('prevButton').addEventListener('click', prevSlide);
 window.addEventListener('resize', updateBooksPerPage);
 
+// Feedback
+const feedbacks = [
+    {
+        comment: "This online bookstore has a fantastic selection! I found all my favorite authors and received my order quickly. Highly satisfied with the service!",
+        stars: 5,
+        date: "October 22, 2024",
+        author: "Ahmed Ali"
+    },
+    {
+        comment: "Shopping here is a breeze! The website is easy to navigate, and my books arrived in perfect condition. Great experience overall!",
+        stars: 4,
+        date: "September 29, 2024",
+        author: "Sarah Mursal"
+    },
+    {
+        comment: "Every time I order, I’m impressed! The delivery is prompt, and I love the thoughtful packaging. Definitely my go-to bookstore now!",
+        stars: 3,
+        date: "August 18, 2024",
+        author: "David Miller"
+    }
+];
+let currentIndex = 0;
 
+ function displayFeedback(index) {
+    const feedback = feedbacks[index];
+    document.querySelector(".comment").textContent = feedback.comment;
+    document.querySelector(".date").textContent = feedback.date;
+    document.querySelector("#author").textContent = feedback.author;
+
+     const starsContainer = document.querySelector(".rates");
+    starsContainer.innerHTML = "";
+    for (let i = 0; i < feedback.stars; i++) {
+        const star = document.createElement("i");
+        star.className = "fa-solid fa-star";
+        starsContainer.appendChild(star);
+    }
+}
+
+ function showNext() {
+    currentIndex = (currentIndex + 1) % feedbacks.length;
+    displayFeedback(currentIndex);
+}
+
+ function showPrevious() {
+    currentIndex = (currentIndex - 1 + feedbacks.length) % feedbacks.length;
+    displayFeedback(currentIndex);
+}
+
+ displayFeedback(currentIndex);
