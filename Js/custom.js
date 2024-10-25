@@ -64,7 +64,7 @@ addContentHeroImg();
 let books = [];
 let booksPerPage =  window.innerWidth <= 992 ? 1 :3; 
 const totalBooks = 9;
-let currentSlide = 1;  
+let currentSlide = 0;  
 
 async function fetchBooks() {
 	try {
@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 function updateBooksPerPage() {
-    const newBooksPerPage = window.innerWidth <= 992 ? 1 : 4;
+    const newBooksPerPage = window.innerWidth <= 992 ? 1 : 3;
     if (newBooksPerPage !== booksPerPage) {
         booksPerPage = newBooksPerPage;
         currentSlide = 0; 

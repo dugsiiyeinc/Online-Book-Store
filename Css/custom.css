@@ -308,12 +308,17 @@ header nav .btns .register:hover {
     width:100%;
     height:100vh;
     background-color:#f5f5f5;
+    display:flex;
+    flex-direction:column;
+     align-items:center;
+    justify-content:center
 }
 .best-sellers .container{
     display:flex;
     flex-direction:column;
-    gap:1rem;
+    gap:2rem;
     align-items:center;
+    justify-content:center;
 }
 .best-sellers .container .section-title{
     display:flex;
@@ -333,24 +338,25 @@ header nav .btns .register:hover {
 }
 .slider {
     display: flex;
-    transition: transform 0.5s ease;
-}
+    gap:1rem;
+ }
 .book {
     width: 33%; 
-    height:300px;
+    height:auto;
     background:#fff;
     box-shadow:0px 7px 29px 0px  rgba(100, 100, 111, 0.2) ;
     border-radius: 10px 0 0 10px;
     display:flex; 
     gap:10px;
     box-sizing: border-box;
-     margin: 10px; 
-    transition: transform 0.2s;
+     transition: transform 0.2s;
+     overflow:hidden;
+
  }
 
 .book img {
     width: 150px;
-    height: 100%;
+    height: auto;
     object-fit: cover;
     transition: transform 0.8s;
     border-radius: 10px 0 0 10px;
@@ -360,6 +366,7 @@ header nav .btns .register:hover {
     flex-direction:column;
     gap:10px;
      justify-content:center;
+     padding:1rem ;
 }
 .book-detail h3 {
      color:#0d2537;
@@ -383,7 +390,7 @@ header nav .btns .register:hover {
 }
 .book-info{
     display:flex;
-    gap:3px;
+    justify-content:space-between;
      align-items:center;
     margin-top:20px;
     font-size:12px;
