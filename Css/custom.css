@@ -331,11 +331,6 @@ header nav .btns .register:hover {
     font-weight:bold;
     color:#0d2537;
 }
-/* .container .slider-container {
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-} */
 .slider {
     display: flex;
     transition: transform 0.5s ease;
@@ -604,6 +599,29 @@ header nav .btns .register:hover {
   width:100%;
   gap:2rem;
    }
+   /* Feedback */
+   .feedback{
+    width:100%;
+    height:1100%;
+    
+  }
+  .feedback .container{
+    display:flex;
+    flex-direction:column;
+    padding:2rem 0;
+   }
+  .container .feed-image{
+    width:100%;
+    max-height:auto;
+   }
+  .container .feed-content{
+    width:100%;
+    margin-left:0;
+    margin-top:-2rem;
+     
+
+   }
+   
   
 }
 
