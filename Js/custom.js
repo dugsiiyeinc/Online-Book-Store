@@ -172,3 +172,4 @@ document.getElementById('nextButton').addEventListener('click', nextSlide);
 document.getElementById('prevButton').addEventListener('click', prevSlide);
 window.addEventListener('resize', updateBooksPerPage);
 
+
