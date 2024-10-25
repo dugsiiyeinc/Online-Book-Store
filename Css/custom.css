@@ -331,11 +331,6 @@ header nav .btns .register:hover {
     font-weight:bold;
     color:#0d2537;
 }
-/* .container .slider-container {
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-} */
 .slider {
     display: flex;
     transition: transform 0.5s ease;
@@ -479,6 +474,62 @@ header nav .btns .register:hover {
       background-color:var(--colorblackblue);
     }
 
+    /* Customer Feedback */
+    .feedback{
+      width:100%;
+      height:100vh;
+      background-color:var(--colorblueblack);
+      display:flex;
+      align-items:center;
+    }
+    .feedback .container{
+      display:flex;
+      align-items:center;
+    }
+    .container .feed-image{
+      background:url('https://img.freepik.com/premium-photo/man-wearing-glasses-striped-shirt-holds-book_403587-3964.jpg?uid=R170454154&ga=GA1.1.130285263.1729434539&semt=ais_hybrid')no-repeat center/cover;
+      width:40%;
+      height:500px;
+      border-radius:20px;
+    }
+    .container .feed-content{
+      width:50%;
+      height:auto;
+      background-color:var(--colorblackblue);
+      padding:3rem;
+      border-radius:20px;
+      margin-left:-2rem;
+      color:#fff;
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+
+     }
+     .feed-content .comment{
+      font-size:20px;
+     }
+     .feed-content .date{
+      font-size:12px;
+     }
+     .feed-content .rates, .fa-quote-left{
+      color:var(--colorblueblack);
+     }
+     .feed-content .author-arrows{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      color:#fff;
+     }
+      .arrows{
+      display:flex;
+      gap:1rem;
+      font-size:1.5rem;
+
+     }
+     .arrows i:hover{
+      color:var(--colorblueblack);
+     }
+    
 
 @media (max-width:992px){
     .best-sellers{
@@ -548,6 +599,29 @@ header nav .btns .register:hover {
   width:100%;
   gap:2rem;
    }
+   /* Feedback */
+   .feedback{
+    width:100%;
+    height:1100%;
+    
+  }
+  .feedback .container{
+    display:flex;
+    flex-direction:column;
+    padding:2rem 0;
+   }
+  .container .feed-image{
+    width:100%;
+    max-height:auto;
+   }
+  .container .feed-content{
+    width:100%;
+    margin-left:0;
+    margin-top:-2rem;
+     
+
+   }
+   
   
 }
 
