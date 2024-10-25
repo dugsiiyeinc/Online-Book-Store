@@ -507,7 +507,24 @@ header nav .btns .register:hover {
       color:#fff;
       display:flex;
       flex-direction:column;
+      gap:10px;
+
+     }
+     .feed-content .comment{
+      font-size:20px;
+     }
+     .feed-content span{
+      font-size:12px;
+     }
+     .feed-content .autor-arrows{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+     }
+      .arrows{
+      display:flex;
       gap:1rem;
+      font-size:1.5rem;
 
      }
     
