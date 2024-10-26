@@ -13,3 +13,9 @@ footer {
     grid-template-columns: repeat(4,1fr);
     gap: 2rem;
   }
+  .footer-grid h3,h4{
+    color:var(--colorYellowGold);
+  }
+  .footer-grid a{
+    color:#fff;
+  }
