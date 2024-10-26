@@ -70,4 +70,9 @@ footer {
    background-color: #4cb2c4;
 
   }
+  @media(max-width:992px){
+    .footer-grid {
+         grid-template-columns: repeat(2,1fr);
+       }
+  }
   
