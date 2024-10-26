@@ -1,0 +1,15 @@
+:root {
+    --colorYellowGold: #ff7700;
+    --colorblackblue: #0d2537;
+    --colorblueblack: #21758f;
+  }
+footer {
+    margin-top: 5%;
+    background-color: var(--colorblackblue);
+    padding: 3rem 0;
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+  }
