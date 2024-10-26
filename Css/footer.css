@@ -19,3 +19,17 @@ footer {
   .footer-grid a{
     color:#fff;
   }
+  .social-icons{
+    display:flex;
+    gap:1rem;
+    align-items:center;
+  }
+  .social-icons a{
+    padding:5px 10px;
+    background-color:var(--colorblueblack);
+    border-radius:50%;
+  }
+  .social-icons a:hover{
+    background-color:var(--colorblackblue);
+  }
+  
