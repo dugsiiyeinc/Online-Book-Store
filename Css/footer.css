@@ -19,6 +19,9 @@ footer {
   .footer-grid a{
     color:#fff;
   }
+  .footer-grid a:hover{
+    color:var(--colorblueblack);
+  }
   .social-icons{
     display:flex;
     gap:1rem;
@@ -31,5 +34,40 @@ footer {
   }
   .social-icons a:hover{
     background-color:var(--colorblackblue);
+  }
+  .newsletter {
+    margin-top: 1rem;
+  }
+  
+  .footer-flex {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+
+  }
+  
+  .footer-flex input[type="email"] {
+    flex: 1;
+    background-color: #f5f5f5;
+    color: var(--colorblackblue);
+    border: 2px solid var(--colorblueblack);
+    padding: 0.5rem;
+    border-radius: 4px;
+    outline:none;
+  }
+  
+  .footer-flex button {
+    flex: 2;
+    background-color: var(--colorblueblack);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .footer-flex button:hover {
+   background-color: #4cb2c4;
+
   }
   
