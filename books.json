@@ -218,6 +218,48 @@
         "bookAuthor": "Stephen Hawking",
         "bookYear": 1988,
         "bookRate" : 3.5
+    },
+    
+    {
+        "bookId": "17",
+        "bookTitle": "Rich Dad's Guide to Investing",
+        "bookImage": "https://m.media-amazon.com/images/I/81ikgufsk2L._UF1000,1000_QL80_.jpg",
+        "bookCategory": "Personal Finance",
+        "bookPages": 224,
+        "bookPrice": 19.99,
+        "bookDescription": "A guide to financial education and investing strategies from the author of Rich Dad Poor Dad.",
+        "bookDetails": "Kiyosaki elaborates on the mindset and financial knowledge needed to become a successful investor. He emphasizes the importance of understanding the difference between assets and liabilities and provides insights into building wealth through informed investment choices.",
+        "bookAuthor": "Robert T. Kiyosaki",
+        "bookYear": 2000,
+        "bookRate": 4.5
+    },
+    {
+        "bookId": "18",
+        "bookTitle": "Everything is F*cked",
+        "bookImage": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1550685003i/43808723.jpg",
+        "bookCategory": "Self-help",
+        "bookPages": 256,
+        "bookPrice": 24.99,
+        "bookDescription": "An exploration of the complexities of hope and how we can find it in a chaotic world.",
+        "bookDetails": "Manson challenges the conventional definitions of hope and happiness, discussing the importance of accepting pain and discomfort as part of life. He offers insights on how to cultivate a resilient mindset amidst challenges and uncertainties.",
+        "bookAuthor": "Mark Manson",
+        "bookYear": 2019,
+        "bookRate": 4.2
+    },
+   
+    {
+        "bookId": "19",
+        "bookTitle": "Love is Not Enough",
+        "bookImage": "https://m.media-amazon.com/images/I/81jyI+c6VzL._UF894,1000_QL80_.jpg",
+        "bookCategory": "Relationships",
+        "bookPages": 208,
+        "bookPrice": 16.99,
+        "bookDescription": "A practical guide to navigating romantic relationships.",
+        "bookDetails": "Manson explores the dynamics of romantic relationships, emphasizing that love alone is not sufficient for a successful partnership. He provides insights into communication, expectations, and the importance of mutual respect and understanding in relationships.",
+        "bookAuthor": "Mark Manson",
+        "bookYear": 2021,
+        "bookRate": 4.3
     }
+
   
 ]
