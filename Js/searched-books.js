@@ -31,6 +31,9 @@ async function displaySearchedBooks() {
                         <span><strong>Rating: <i class="fa-solid fa-star"></i> ${book.bookRate}</strong></span></div>
                     <p><strong>Published Year:</strong> ${book.bookYear}</p>
                         <p><strong>Pages:</strong> ${book.bookPages}</p>
+                        <button class="add-to-cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        Add to Cart</button>
                      </div>
                 `;
             });

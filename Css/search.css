@@ -28,6 +28,8 @@
   .book-display{
     width:100%;
     height:calc(100vh -5rem);
+    display:flex;
+    flex-wrap:wrap;
    }
  
   .book-item{
@@ -51,3 +53,14 @@
   .book-item .rate i{
     color:var(--colorYellowGold);
   }
+  .add-to-cart{
+    padding:8px 30px;
+    background-color:var(--colorblueblack);
+    border:none;
+    color:#fff;
+    border-radius:10px;
+    margin-top:15px;
+  }
+  .add-to-cart:hover{
+     background-color: #4cb2c4;
+   }
