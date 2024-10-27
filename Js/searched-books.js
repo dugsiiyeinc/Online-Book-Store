@@ -28,7 +28,7 @@ async function displaySearchedBooks() {
                         <p><strong>Category:</strong> ${book.bookCategory}</p>
                         <p><strong>Price:</strong> $${book.bookPrice}</p>
                         <div class="rate">
-                        <span><strong>Rating:<i class="fa-solid fa-star"></i> ${book.bookRate}</strong></span></div>
+                        <span><strong>Rating: <i class="fa-solid fa-star"></i> ${book.bookRate}</strong></span></div>
                     <p><strong>Published Year:</strong> ${book.bookYear}</p>
                         <p><strong>Pages:</strong> ${book.bookPages}</p>
                      </div>
