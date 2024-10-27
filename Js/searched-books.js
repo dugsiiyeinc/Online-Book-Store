@@ -7,9 +7,10 @@ async function displaySearchedBooks() {
     const query = getQueryParam("query")?.toLowerCase() || ""; 
     const bookDisplay = document.getElementById("bookDisplay");
     const searchQueryDisplay = document.getElementById("searchQueryDisplay");  
-    const searchQuery = document.getElementById("searchQuery");
+   const searchInput = document.getElementById("searchInput");
+   searchInput.value = query;
+    searchQueryDisplay.textContent = `Showing results for "${query}"`;
 
-     searchQueryDisplay.value = `Showing results for "${query}"`; 
     try {
         const response = await fetch('../books.json');
         const books = await response.json();
