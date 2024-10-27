@@ -232,4 +232,18 @@ newsletter.addEventListener('submit',(event)=>{
     const email = event.target.querySelector('input[type="email"]').value;
     alert("Thanks for your subscribing");
 })
+
+//  Search Books
+
+const searchForm = document.querySelector("#Searchform");
+searchForm.addEventListener('submit',(e)=>{
+   e.preventDefault();
+   const searchInput = document.getElementById("searchInput").value.trim();
+   if (searchInput) {
+        window.location.href = `./html/searched-books.html?query=${encodeURIComponent(searchInput)}`;
+    } else {
+       alert("Please enter a book title or author.");
+   }
+
+})
  
