@@ -22,13 +22,14 @@ async function displaySearchedBooks() {
             foundBooks.forEach(book => {
                 bookDisplay.innerHTML += `
                     <div class="book-item">
-                        <h2>${book.bookTitle}</h2>
                         <img src="${book.bookImage}" alt="${book.bookTitle}">
+                        <h2>${book.bookTitle}</h2>
                         <p><strong>Author:</strong> ${book.bookAuthor}</p>
                         <p><strong>Category:</strong> ${book.bookCategory}</p>
                         <p><strong>Price:</strong> $${book.bookPrice}</p>
-                         <p><strong>Rating:</strong> ${book.bookRate} / 5</p>
-                        <p><strong>Published Year:</strong> ${book.bookYear}</p>
+                        <div class="rate">
+                        <span><strong>Rating:<i class="fa-solid fa-star"></i> ${book.bookRate}</strong></span></div>
+                    <p><strong>Published Year:</strong> ${book.bookYear}</p>
                         <p><strong>Pages:</strong> ${book.bookPages}</p>
                      </div>
                 `;
