@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Results - BookNest</title>
-    <link rel="stylesheet" href="path/to/your/styles.css">
+      <!-- link font awesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+     <!-- Link search css -->
+      <link rel="stylesheet" href="../Css/search.css">
+      <!-- link main css -->
+       <link rel="stylesheet" href="../main.css">
 </head>
 <body>
 
     <header>
+       <div class="container">
         <form id="Searchform">
             <input type="search"  id="searchInput">
-            <button type="submit">Search</button>
-        </form>
-        <p id="searchQueryDisplay"></p> 
+         </form>
+       </div>
        </header>
     <section id="bookDisplay" class="book-display">
+        <p id="searchQueryDisplay"></p> 
+
         <!-- Search results will be here -->
     </section>
      <script src="../Js/searched-books.js"></script>
