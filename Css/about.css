@@ -1,0 +1,176 @@
+:root {
+    --colorYellowGold: #ff7700;
+    --colorblackblue: #0d2537;
+    --colorblueblack: #21758f;
+  }
+.hero{
+    width:100%;
+    height:400px;
+    background: linear-gradient(to right, rgba(0, 37, 55, 0.9), rgba(0, 37, 55, 0.9)), url('https://media.istockphoto.com/id/952401666/photo/books-for-sale-on-the-street.webp?a=1&b=1&s=612x612&w=0&k=20&c=6YvdP024YVAFCpFXiWivPW7Zqqc5SR2026nH2sMCHx4=') no-repeat center/cover;
+    color:#fff;
+    display:flex;
+    align-items:center;
+}
+.hero .container{
+     display:flex;
+    flex-direction:column;
+    gap:5px;
+}
+.hero .container span{
+    color:var(--colorYellowGold)
+}
+.hero .container p{
+    color:rgba(255,255,255,0.6);
+}
+.cta-button{
+    width:200px;
+    background-color:#fff;
+    padding:6px 12px;
+    border-radius:20px;
+    color:var(--colorblackblue);
+    font-weight:bold;
+    transition:0.5s;
+}
+.cta-button:hover{
+    background-color:var(--colorblueblack);
+    color:#fff;
+}
+.our-story{
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items:center;
+     margin-block:50px;
+}
+.our-story .container{
+     display:flex;
+    gap:2rem;
+ }
+.our-story .image{
+    width:50%;
+      height:500px;
+    background:url('https://images.pexels.com/photos/4861373/pexels-photo-4861373.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center/cover;
+ }
+
+.our-story .text{
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+    flex:1;
+    font-style:italic;
+
+}
+.text h2{
+    color:var(--colorblackblue);
+}
+.text p{
+    color:var(--colorblueblack);
+}
+.text .cta-button{
+    border: 2px solid var(--colorYellowGold);
+}
+.mission{
+    width:100%;
+    height:500px;
+    display:flex;
+    align-items:center;
+}
+.mission .container{
+    width:60%;
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+    align-items:center;
+}
+.mission h2{
+    color:var(--colorblackblue);
+}
+.mission p{
+    font-size:18px;
+    font-style:italic;
+    color:var(--colorblueblack)
+}
+.faq{
+    width:100%;
+    height:100vh;
+    background-color:var(--colorblackblue);
+    color:#fff;
+    display:flex;
+    align-items:center;
+}
+.faq .container{
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+    align-items:center;
+}
+.faq-title{
+    font-size:3rem;
+}
+.accordion {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.accordion-item { 
+     background: var(--colorblueblack);
+     padding: 20px;
+     margin-bottom: 10px;
+     border-radius: 5px;
+     cursor: pointer;
+}
+
+.accordion-item h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.accordion-content {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: var(--colorYellowGold);
+}
+
+@media (max-width:992px){
+    .hero .container{
+         align-items:center;
+         text-align:center;
+         gap:1rem;
+    }
+   .our-story{
+    width:100%;
+    height:auto;
+    
+}
+   .our-story .container{
+     flex-direction:column;
+    gap:1rem;
+  
+ }
+ .our-story .image {
+    height: 300px;
+    width:100%;
+    
+}
+.our-story .text {
+     text-align: center;
+    padding: 1rem;
+}
+
+.mission{
+    margin-block:100px;
+}
+.mission .container{
+    width:100%;
+    padding:0 1rem;
+    align-items:center;
+
+ }
+ .mission p{
+   text-align:center;
+}
+.faq-title{
+    font-size:1.8rem;
+}
+}
