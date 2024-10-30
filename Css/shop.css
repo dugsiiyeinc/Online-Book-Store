@@ -15,7 +15,17 @@
   }
   .hero-text{
     width:50%;
-    color:#fff;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+   }
+  .hero-text h2{
+    font-size:2rem;
+    color:var(--colorYellowGold);
+  }
+  .hero-text p{
+    font-size:20px;
+    color:var(--colorblueblack)
   }
   .hero-image{
     width:50%;
