@@ -8,3 +8,25 @@
     height:500px;
     background-color:var(--colorblackblue);
   }
+  .hero .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .hero-text{
+    width:50%;
+    color:#fff;
+  }
+  .hero-image{
+    width:50%;
+    height:auto;
+     display:flex;
+    align-items:center;
+    justify-content:center;
+ 
+  }
+  
+  .hero-image img{
+    width:100%;
+    height:auto;
+  }
