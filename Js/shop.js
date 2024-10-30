@@ -73,3 +73,8 @@ function filterBooks(category) {
     const filteredBooks = books.filter(book => book.bookCategory === category);
     mainContent.appendChild(createBookItems(filteredBooks));
 }
+
+function toggleSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    sidebar.classList.toggle('active');
+}
