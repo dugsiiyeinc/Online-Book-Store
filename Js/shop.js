@@ -21,8 +21,8 @@ function createBookItems(bookArray) {
             <img src="${book.bookImage}" alt="${book.bookTitle}">
             <h3>${book.bookTitle}</h3>
             <p>By ${book.bookAuthor}</p>
-            <p>${book.bookDescription}</p>
-            <p>Price: $${book.bookPrice}</p>
+             <p>Price: $${book.bookPrice}</p>
+             <button class="add-to cart">Add to cart</button>
         `;
         bookList.appendChild(bookDiv);
     });

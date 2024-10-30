@@ -42,6 +42,85 @@
     width:100%;
     height:auto;
   }
+  .shop-section{
+    width:100%;
+    height:auto;
+    margin-block:50px;
+  }
+  .shop-section .container{
+    display:flex;
+    gap:1rem;
+      
+  }
+  
+
+  .sidebar {
+    width: 200px;
+     background-color: var(--colorblueblack);
+     padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar h2 {
+    font-size:2rem;
+    color: #fff;
+}
+.sidebar ul li {
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 5px 0;
+    color: #f5f5f5;
+    transition: color 0.3s ease;
+}
+
+.sidebar ul li:hover {
+    color: var(--colorYellowGold);
+}
+.shop-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.section-title {
+    font-size: 1.5em;
+    color: #333;
+    margin: 20px 0 10px;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.book-item {
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-item img {
+    width: 100%;
+    height:200px;
+     border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.book-item h3 {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.book-item p {
+    color: var(--colorblueblack);
+    margin: 5px 0;
+}
+
 @media(max-width:992px){
     .hero-text{
         width:100%;
