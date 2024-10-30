@@ -72,18 +72,22 @@
     <aside class="sidebar">
         <h2>Categories</h2>
         <ul>
-            <li>All Books</li>
-            <li>Self-help</li>
-            <li>Programming</li>
-            <li>Biography</li>
-            <li>Business</li>
-            <li>Psychology</li>
-            <li>History</li>
-            <li>Personal Finance</li>
-            <li>Science</li>
-            <li>Relationships</li>
+            <li onclick="displayRecommendedAndPopular()">All Books</li>
+            <li onclick="filterBooks('Self-help')">Self-help</li>
+            <li onclick="filterBooks('Programming')">Programming</li>
+            <li onclick="filterBooks('Biography')">Biography</li>
+            <li onclick="filterBooks('Business')">Business</li>
+            <li onclick="filterBooks('Psychology')">Psychology</li>
+            <li onclick="filterBooks('History')">History</li>
+            <li onclick="filterBooks('Personal Finance')">Personal Finance</li>
+            <li onclick="filterBooks('Science')">Science</li>
+            <li onclick="filterBooks('Relationships')">Relationships</li>
         </ul>
     </aside>
+     <!--  Displaying Books -->
+     <div class="shop-content" id="main-content">
+        <!-- Recommended and Popular books will be  here -->
+    </div>
 
             </div>
         </section>
