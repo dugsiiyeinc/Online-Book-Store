@@ -111,14 +111,26 @@
 }
 
 .book-item h3 {
-    font-size: 1.1em;
-    color: #333;
+    font-size: 1.5 rem;
+    color: var(--colorblackblue);
     margin-bottom: 5px;
 }
 
 .book-item p {
-    color: var(--colorblueblack);
+    color: #333;
     margin: 5px 0;
+    font-size:14px;
+}
+.book-item .add-to-cart{
+    padding:6px 16px;
+    border:none;
+    background-color:var(--colorblueblack);
+    color:#fff;
+    transition:0.5s;
+}
+.book-item .add-to-cart:hover{
+    background-color:var(--colorYellowGold);
+    
 }
 
 @media(max-width:992px){

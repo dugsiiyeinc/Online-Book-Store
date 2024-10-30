@@ -22,7 +22,7 @@ function createBookItems(bookArray) {
             <h3>${book.bookTitle}</h3>
             <p>By ${book.bookAuthor}</p>
              <p>Price: $${book.bookPrice}</p>
-             <button class="add-to cart">Add to cart</button>
+             <button class="add-to-cart">Add to cart</button>
         `;
         bookList.appendChild(bookDiv);
     });
