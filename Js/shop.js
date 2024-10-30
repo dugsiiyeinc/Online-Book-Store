@@ -78,3 +78,24 @@ function toggleSidebar() {
     const sidebar = document.getElementById('sidebar');
     sidebar.classList.toggle('active');
 }
+// Close the sidebar
+function closeSidebar() {
+    const sidebar = document.getElementById("sidebar");
+    sidebar.classList.remove("active");
+}
+
+ function selectCategory(category) {
+    if (category === 'All Books') {
+        displayRecommendedAndPopular();
+    } else {
+        filterBooks(category);
+    }
+    closeSidebar();
+}
+
+ document.querySelectorAll(".sidebar ul li").forEach(item => {
+    item.addEventListener("click", function() {
+        const category = this.textContent.trim(); 
+        selectCategory(category);
+    });
+});

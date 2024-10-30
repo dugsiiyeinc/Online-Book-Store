@@ -61,7 +61,6 @@
      background-color: var(--colorblueblack);
      padding: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
-    transform: translateX(-100%);
     transition: transform 0.3s ease;
 }
 .sidebar.active {
@@ -139,6 +138,7 @@
     
 }
 .toggle-sidebar {
+    display:none;
     position: absolute;
     left: 0; 
     top: 20px;
@@ -170,6 +170,8 @@
         position: absolute;
         left: 0;
         padding-left:50px;
+        transform: translateX(-100%);
+
      }
 
     .sidebar.active {
@@ -179,6 +181,15 @@
     .shop-section .container {
         flex-direction: column;
     }
+    .section-title {
+        text-align:center;
+    }
+    .book-list {
+        display: flex;
+        align-items:center;
+        justify-content:center;
+    }
+    
 
     
 }
