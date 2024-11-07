@@ -123,3 +123,8 @@ document.addEventListener("click", function(event) {
         updateCartCount();
     }
 });
+function updateCartCount() {
+    const cartCount = document.getElementById("cart-count");
+    cartCount.innerText = cartItems.reduce((sum, item) => sum + item.quantity, 0);
+}
+
