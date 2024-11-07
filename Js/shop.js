@@ -218,8 +218,26 @@ style.innerHTML = `
     .checkout-btn, .view-cart-btn {
         margin-top: 15px;
         padding: 10px 20px;
-        cursor: pointer;
+        cursor: pointer; 
+        font-weight:bold;
+        border:2px solid #21758f;
+
     }
+     .checkout-btn{
+    background-color: #21758f;
+    color:#fff;
+     }
+     .checkout-btn:hover{
+         background-color: #5ca4b5;
+      }
+    .view-cart-btn{
+        background-color: transparent;
+        color: #21758f;
+   }
+     .view-cart-btn:hover{
+              background-color: #5ca4b5;
+
+     }
 `;
 document.head.appendChild(style);
 }
