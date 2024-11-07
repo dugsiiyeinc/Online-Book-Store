@@ -131,4 +131,38 @@ document.getElementById("cart-icon").addEventListener("click", function() {
     showCartSummaryModal();
 });
 
+function showCartSummaryModal() {
+    const modal = document.createElement("div");
+    modal.className = "cart-modal";
+    const totalPrice = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0).toFixed(2);
 
+    let cartItemsHtml = cartItems.map(item => `
+        <div class="cart-item">
+            <img src="${item.image}" alt="${item.title}" class="modal-book-image">
+            <div class="cart-details">
+                <h3>${item.title}</h3>
+                <p>Quantity: ${item.quantity}</p>
+                <p>Price: $${(item.price * item.quantity).toFixed(2)}</p>
+            </div>
+        </div>
+    `).join("");
+
+    modal.innerHTML = `
+        <div class="cart-modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Your Cart</h2>
+            <div class="cart-modal-body">${cartItemsHtml}</div>
+            <div class="cart-footer">
+                <p><strong>Total Price: $${totalPrice}</strong></p>
+                <button class="checkout-btn">Check Out</button>
+                <button class="view-cart-btn">View Cart</button>
+            </div>
+        </div>
+    `;
+    document.body.appendChild(modal);
+
+    modal.querySelector(".close-modal").onclick = () => modal.remove();
+    modal.addEventListener("click", (event) => {
+        if (event.target === modal) modal.remove();
+    });
+}
