@@ -172,4 +172,54 @@ function showCartSummaryModal() {
     modal.querySelector(".view-cart-btn").onclick = () => {
         console.log("view cart btn is clicked");
      };  
+
+    //  Style
+    const style = document.createElement("style");
+style.innerHTML = `
+    .cart-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    }
+    .cart-modal-content {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        max-width: 400px;
+        width: 100%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        position: relative;
+        text-align: center;
+    }
+    .cart-modal-body {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .modal-book-image {
+        width: 80px;
+        height: auto;
+        border-radius: 4px;
+    }
+    .close-modal {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .checkout-btn, .view-cart-btn {
+        margin-top: 15px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+`;
+document.head.appendChild(style);
 }
