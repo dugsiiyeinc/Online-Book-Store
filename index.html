@@ -19,6 +19,8 @@
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
     <!-- link js for home page -->
     <script src="./Js/script.js" defer></script>
+    <script src="../main.js" defer></script>
+
 </head>
 
 
@@ -34,7 +36,7 @@
                     <li><a href="#">home</a></li>
                     <li><a href="./html/about.html">about</a></li>
                     <li><a href="./html/shop.html">shop</a></li>
-                    <li><a href="./html/cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li><a href="./html/cart.html">Cart</a></li>
                 </ul>
                 <div class="btns">
                     <button class="login">sign in</button>
@@ -51,16 +53,19 @@
                 <a href="/index.html">Book<span>Nest</span></a>
             </div>
             <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">about</a></li>
+                <li><a href="./index.html">home</a></li>
+                <li><a href="./html/about.html">about</a></li>
                 <li><a href="./html/shop.html">shop</a></li>
-                <li><a href="#">cart</a></li>
+                <li><a href="./html/cart.html">cart</a></li>
             </ul>
             <div class="btns">
                 <button class="login">sign in</button>
                 <button class="register">sign up</button>
             </div>
         </nav>
+        <i class="fa-solid fa-cart-shopping" id="cart-icon">
+            <span id="cart-count">0</span>
+        </i>
     </header>
 <main>
     <section id="hero">
