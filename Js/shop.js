@@ -165,4 +165,11 @@ function showCartSummaryModal() {
     modal.addEventListener("click", (event) => {
         if (event.target === modal) modal.remove();
     });
+     modal.querySelector(".checkout-btn").onclick = () => {
+        console.log("Checkout btn is clicked");
+     };
+
+    modal.querySelector(".view-cart-btn").onclick = () => {
+        console.log("view cart btn is clicked");
+     };  
 }
