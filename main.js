@@ -122,7 +122,7 @@ style.innerHTML = `
         background: white;
         padding: 20px;
         border-radius: 8px;
-        max-width: 400px;
+        max-width: 600px;
         width: 100%;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         position: relative;
@@ -130,12 +130,13 @@ style.innerHTML = `
     }
     .cart-modal-body {
         display: flex;
-        flex-direction: column;
-        gap: 10px;
+         gap: 10px;
+        flex-wrap:wrap;
+        align-items:center;
     }
     .modal-book-image {
         width: 80px;
-        height: auto;
+        height: 80px;
         border-radius: 4px;
     }
     .close-modal {
@@ -168,6 +169,14 @@ style.innerHTML = `
               background-color: #5ca4b5;
 
      }
+     @media(max-width:992px){
+       .cart-modal {
+        position: fixed;
+        top: 100px;
+         
+    }
+
+     }         
 `;
 document.head.appendChild(style);
 }
