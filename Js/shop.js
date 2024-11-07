@@ -100,7 +100,11 @@ function closeSidebar() {
     });
 });
 
-let cartItems = [];
+let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+document.addEventListener("DOMContentLoaded", function() {
+    updateCartCount();
+});
+
 document.addEventListener("click", function(event) {
     if (event.target.classList.contains("add-to-cart")) {
         const bookItem = event.target.closest(".book-item");
@@ -120,6 +124,7 @@ document.addEventListener("click", function(event) {
             };
             cartItems.push(cartItem);
         }
+        localStorage.setItem("cartItems", JSON.stringify(cartItems));
         updateCartCount();
     }
 });
