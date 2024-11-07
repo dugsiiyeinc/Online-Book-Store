@@ -21,7 +21,7 @@ function createBookItems(bookArray) {
             <img src="${book.bookImage}" alt="${book.bookTitle}">
             <h3>${book.bookTitle}</h3>
             <p>By ${book.bookAuthor}</p>
-             <p>Price: $${book.bookPrice}</p>
+             <p class="book-price">Price: $${book.bookPrice}</p>
              <button class="add-to-cart">Add to cart</button>
         `;
         bookList.appendChild(bookDiv);
@@ -98,4 +98,28 @@ function closeSidebar() {
         const category = this.textContent.trim(); 
         selectCategory(category);
     });
+});
+
+let cartItems = [];
+document.addEventListener("click", function(event) {
+    if (event.target.classList.contains("add-to-cart")) {
+        const bookItem = event.target.closest(".book-item");
+        const bookTitle = bookItem.querySelector("h3").innerText;
+        const bookImage = bookItem.querySelector("img").src;
+        const bookPrice = parseFloat(bookItem.querySelector(".book-price").innerText.replace("Price: $", ""));
+
+        const existingItem = cartItems.find(item => item.title === bookTitle);
+        if (existingItem) {
+            existingItem.quantity += 1;
+        } else {
+            const cartItem = {
+                title: bookTitle,
+                image: bookImage,
+                price: bookPrice,
+                quantity: 1
+            };
+            cartItems.push(cartItem);
+        }
+        updateCartCount();
+    }
 });
