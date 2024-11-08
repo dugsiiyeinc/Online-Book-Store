@@ -212,6 +212,10 @@ header nav .btns .register:hover {
   background-color: var(--colorblackblue);
   color: white;
 }
+#Searchform #searchBtn:hover{
+  background-color: var(--colorblueblack);
+
+}
 #cart-icon {
   position: relative;
   right:20px;
