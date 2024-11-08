@@ -54,3 +54,50 @@
     cursor: pointer;
     border-radius: 5px;
 }
+@media (max-width:768px){
+    .cart-table, .cart-table tr, .cart-table td {
+        display: block;
+        width: 100%;
+    }
+    
+    .cart-table th {
+        display: none;
+    }
+
+    .cart-items td {
+        text-align: right;
+        border-top: 1px solid #ddd;
+    }
+
+    .cart-items td:first-child {
+        text-align: left;
+     }
+
+    .cart-item-image {
+        max-width: 50px;
+        max-height: 50px;
+        display: inline-block;
+    }
+
+    .quantity-btn {
+        padding: 5px 10px;
+    }
+
+    .cart-items td span, .cart-items td button {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    .cart-items td button {
+        margin-top: 5px;
+    }
+
+    .cart-items td:last-child {
+        text-align: center;
+    }
+
+    .delete-btn {
+        width: 100%;
+    }
+
+}
