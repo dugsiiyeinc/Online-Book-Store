@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- font-family link -->
+     <link
+     href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Playfair+Display:wght@700&display=swap"
+     rel="stylesheet" />
+ <!-- link font awesome cdn -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+ <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+ <!-- Css links -->
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../Css/style.css">
+    <link rel="stylesheet" href="../Css/login.css">
+     <script src="../main.js" defer></script>
+     <script src="../Js/login.js" defer></script>
+    <title>BookNest - Login</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="desktop">
+                <div class="logo">
+                    <a href="/index.html">Book<span>Nest</span></a>
+                </div>
+                <ul>
+                    <li><a href="../index.html">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="./shop.html">shop</a></li>
+                    <li><a href="./cart.html">Cart</a></li>
+                </ul>
+                <div class="btns">
+                    <button class="login">sign in</button>
+                    <button class="register">sign up</button>
+                </div>
+                <div class="icons">
+                    <i class="bx bx-menu" id="open-menu"></i>
+                    <i class="bx bx-x" id="close-menu"></i>
+                </div>
+            </nav>
+        </div>
+        <nav class="mobileScreens">
+            <div class="logo">
+                <a href="../index.html">Book<span>Nest</span></a>
+            </div>
+            <ul>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="./about.html">about</a></li>
+                <li><a href="./shop.html">shop</a></li>
+                <li><a href="./cart.html">cart</a></li>
+            </ul>
+            <div class="btns">
+                <button class="login">sign in</button>
+                <button class="register">sign up</button>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <form class="login-form">
+                <h2>Login</h2>
+                 <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                 <button type="submit">Login</button>
+                 <p>I don't have an account! <a href="./register.html">Register</a></p>
+
+            </form>
+
+        </div>
+    </section>
+</body>
+</html>
