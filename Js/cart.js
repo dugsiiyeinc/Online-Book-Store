@@ -50,6 +50,10 @@ function confirmDelete(index) {
         document.getElementById('estimatedTotal').innerText = '0.00';
     }
 }
+function updateEstimatedTotal() {
+    const total = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0).toFixed(2);
+    document.getElementById('estimatedTotal').innerText = total;
+}
 
 window.onload = displayCart;
 
