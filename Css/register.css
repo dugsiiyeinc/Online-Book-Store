@@ -20,4 +20,18 @@ section .container {
     align-items:center;
     justify-content:center;
 }
+.register-form {
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding:40px;
+    border-radius:20px;
+ }
+
+.register-form h2 {
+    text-align: center;
+    color: var(--colorYellowGold);
+    margin-bottom: 25px;
+}
+
+
 
