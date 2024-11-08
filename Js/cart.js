@@ -6,27 +6,41 @@ function displayCart() {
         cartContainer.innerHTML = '<p>Your cart is empty.</p>';
         return;
     }
-    cartItems.forEach((item, index) => {
-        const itemDiv = document.createElement('div');
-        itemDiv.className = 'cart-item';
+    const cartTable = document.createElement('table');
+    cartTable.className = 'cart-table';
 
-         itemDiv.innerHTML = `
-           <div class="book-detail"> 
-           <div><img src="${item.image}" alt="${item.title}"></div>
-            <div>${item.title}</div>
-            </div>
-            <div>$${item.price}</div>
-            <div class="quantity-controls">
+     const headerRow = document.createElement('tr');
+    headerRow.className = 'cart-header';
+    headerRow.innerHTML = `
+        <th>Image</th>
+        <th>Title</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Total</th>
+        <th>Actions</th>
+    `;
+    cartTable.appendChild(headerRow);
+
+    cartItems.forEach((item, index) => {
+        const itemRow = document.createElement('tr');
+        itemRow.className = 'cart-item';
+
+         itemRow.innerHTML = `
+            <td><img src="${item.image}" alt="${item.title}" class="cart-item-image"></td>
+            <td>${item.title}</td>
+            <td>$${item.price}</td>
+            <td>
                 <button class="quantity-btn" onclick="updateQuantity(${index}, -1)">-</button>
                 <span>${item.quantity}</span>
                 <button class="quantity-btn" onclick="updateQuantity(${index}, 1)">+</button>
-            </div>
-            <div>$<span id="itemTotal-${index}">${(item.price * item.quantity).toFixed(2)}</span></div>
-            <div><button class="delete-btn" onclick="confirmDelete(${index})">Delete</button></div>
+            </td>
+            <td>$<span id="itemTotal-${index}">${(item.price * item.quantity).toFixed(2)}</span></td>
+            <td><button class="delete-btn" onclick="confirmDelete(${index})">Delete</button></td>
         `;
-
-         cartContainer.appendChild(itemDiv);
+        cartTable.appendChild(itemRow);
     });
+    
+    cartContainer.appendChild(cartTable);
 
      updateEstimatedTotal();
 
