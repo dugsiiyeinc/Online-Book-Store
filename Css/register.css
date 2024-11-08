@@ -32,6 +32,14 @@ section .container {
     color: var(--colorYellowGold);
     margin-bottom: 25px;
 }
+ .register-form p {
+    color:#fff;
+    text-align:center;
+    margin-top:15px;
+ }
+ .register-form p a{
+    color:var(--colorblueblack);
+ }
 .register-form input[type="text"],
 .register-form input[type="email"],
 .register-form input[type="password"] {

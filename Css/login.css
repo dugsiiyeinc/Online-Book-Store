@@ -25,6 +25,14 @@
     padding:40px;
     border-radius:20px;
  }
+ .login-form p {
+    color:#fff;
+    text-align:center;
+    margin-top:15px;
+ }
+ .login-form p a{
+    color:var(--colorblueblack);
+ }
 
 .login-form h2 {
     text-align: center;
