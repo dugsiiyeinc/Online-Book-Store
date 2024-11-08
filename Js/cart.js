@@ -29,3 +29,18 @@ function displayCart() {
      updateEstimatedTotal();
 
 }
+function updateQuantity(index, change) {
+    cartItems[index].quantity += change;
+
+     if (cartItems[index].quantity < 1) {
+        cartItems[index].quantity = 1;
+    }
+
+     localStorage.setItem("cartItems", JSON.stringify(cartItems));
+
+     displayCart();
+}
+
+
+window.onload = displayCart;
+
