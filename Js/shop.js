@@ -174,10 +174,9 @@ function showCartSummaryModal() {
         console.log("Checkout btn is clicked");
      };
 
-    modal.querySelector(".view-cart-btn").onclick = () => {
-        console.log("view cart btn is clicked");
-     };  
-
+     modal.querySelector(".view-cart-btn").onclick = () => {
+        window.location.href = '../html/cart.html';
+    };
     //  Style
     const style = document.createElement("style");
 style.innerHTML = `
