@@ -35,6 +35,9 @@ async function displaySearchedBooks() {
                      </div>
                 `;
             });
+            document.querySelector('.go-to-shop-btn').addEventListener('click', () => {
+                window.location.href = `../html/shop.html`;
+            });
         } else {
             bookDisplay.innerHTML = `<p>No books found for "${query}".</p>`;
         }

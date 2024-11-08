@@ -118,6 +118,9 @@ function showBooks(slideIndex) {
         bookDiv.querySelector('.view').addEventListener('click', () => {
             window.location.href = `./html/book-detail.html?bookId=${book.bookId}`;
         });
+        bookDiv.querySelector('.go-to-shop-btn').addEventListener('click', () => {
+            window.location.href = `./html/shop.html`;
+        });
 
          slider.appendChild(bookDiv);
     });

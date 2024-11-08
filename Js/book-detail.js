@@ -26,31 +26,11 @@ async function fetchBookDetails() {
             <div class="rate">
                 <i class="fa-solid fa-star"></i>
                 <span>(${book.bookRate})</span>
-            </div>
-               <div class="quantity-container">
-            <label for="quantity">Quantity:</label>
-            <div class="quantity-controls">
-                <button id="decrease" class="quantity-btn">-</button>
-                <input type="text" id="quantity" value="1" readonly>
-                <button id="increase" class="quantity-btn">+</button>
-            </div>
+            </div> 
             <button class="go-to-shop-btn">View All Books</button>
-            </div>
-        `;
-      const quantityInput = document.getElementById("quantity");
-      const increaseButton = document.getElementById("increase");
-      const decreaseButton = document.getElementById("decrease");
-
-      increaseButton.addEventListener("click", () => {
-        let currentValue = parseInt(quantityInput.value);
-        quantityInput.value = currentValue + 1;
-      });
-
-      decreaseButton.addEventListener("click", () => {
-        let currentValue = parseInt(quantityInput.value);
-        if (currentValue > 1) {
-          quantityInput.value = currentValue - 1;
-        }
+         `;
+        document.querySelector('.go-to-shop-btn').addEventListener('click', () => {
+          window.location.href = `shop.html`;
       });
     } else {
       console.error("Book not found");
