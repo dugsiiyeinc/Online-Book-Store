@@ -5,7 +5,7 @@
   }
   section .container h1{
     text-align:center;
-    color:var(--colorblackblue)
+    color:var(--colorblackblue);
   }
   .cart-header, .cart-items {
     display: flex;
@@ -16,7 +16,7 @@
 .cart-header {
     font-weight: bold;
     border-bottom: 2px solid #000;
-    color:var(--colorblueblack)
+    color:var(--colorblueblack);
 }
 .cart-items img {
     width: 50px;
@@ -25,7 +25,11 @@
 }
 .cart-table{
     width:100%;
-    border-collopse:collopse;
+    border-collapse: collapse;
+}
+.cart-table th, .cart-table td {
+    padding: 10px;
+    text-align: left;
 }
 .quantity-controls {
     display: flex;
