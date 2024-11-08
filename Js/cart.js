@@ -11,8 +11,10 @@ function displayCart() {
         itemDiv.className = 'cart-item';
 
          itemDiv.innerHTML = `
-            <div><img src="${item.image}" alt="${item.title}"></div>
+           <div class="book-detail"> 
+           <div><img src="${item.image}" alt="${item.title}"></div>
             <div>${item.title}</div>
+            </div>
             <div>$${item.price}</div>
             <div class="quantity-controls">
                 <button class="quantity-btn" onclick="updateQuantity(${index}, -1)">-</button>
