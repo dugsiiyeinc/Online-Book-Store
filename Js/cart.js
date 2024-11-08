@@ -41,6 +41,5 @@ function updateQuantity(index, change) {
      displayCart();
 }
 
-
 window.onload = displayCart;
 
