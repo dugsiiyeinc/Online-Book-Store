@@ -7,6 +7,7 @@
     width:100%;
     height:calc(100vh - 80px);
     display:flex;
+    gap:1rem;
 }
 .book-details .book-image{
     width:50%;
@@ -30,7 +31,7 @@
     background-color:#fff;
     display:flex;
     flex-direction:column;
-    gap:5px;
+    gap:10px;
     padding:1rem;
     color:var(--colorblackblue);
 
@@ -50,52 +51,7 @@
     font-size:20px;
     font-weight:bold;
   }
-  .quantity-container {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 1rem;
-    margin-top:10px;
-
-  }
-  .quantity-container label{
-    font-size:20px;
-    color:var(--colorblackblue);
-    font-weight:bold;
-  }
-  
-  .quantity-controls {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .quantity-btn {
-    width: 30px;
-    height: 30px;
-    font-size: 20px;
-    border: 2px solid var(--colorblackblue);
-    color:var(--colorblackblue) ;
-    background-color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .quantity-btn:hover {
-    background-color: var(--colorblackblue);
-    color:#fff;
-    border: 2px solid var(--colorblueblack);
-
-  }
-  
-  #quantity {
-    width: 40px;
-    text-align: center;
-    border: none;
-    font-size: 18px;
-  }
-  
- {
+ .go-to-shop-btn{
     background-color: var(--colorblueblack);
     color: #fff;
     border: none;
@@ -103,9 +59,10 @@
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
+    width:50%;
   }
   
-:hover {
+.go-to-shop-btn:hover {
     background-color: #4cb2c4;
 }
   
