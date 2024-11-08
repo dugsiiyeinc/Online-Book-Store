@@ -24,3 +24,15 @@ newsletter.addEventListener('submit',(event)=>{
     const email = event.target.querySelector('input[type="email"]').value;
     alert("Thanks for your subscribing");
 })
+
+const login = document.querySelector('.login');
+const register = document.querySelector('.register');
+login.addEventListener('click', ()=>{
+    window.location.href = './html/login.html'
+});
+
+register.addEventListener('click', ()=>{
+    console.log("clicked");
+    window.location.href = './html/register.html'
+
+});
