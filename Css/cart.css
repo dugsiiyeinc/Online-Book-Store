@@ -3,4 +3,10 @@
     --colorblackblue: #0d2537;
     --colorblueblack: #21758f;
   }
-  
+  .cart-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+} 
