@@ -41,7 +41,7 @@
 .delete-btn {
     background-color: var(--colorYellowGold);
     color: #fff;
-    padding: 3px 7px;
+    padding: 5px 8px;
     border: none;
     cursor: pointer;
     border-radius: 5px;

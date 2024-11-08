@@ -14,7 +14,6 @@
     <!-- Link js -->
      <!-- <script src="../Js/script.js"></script> -->
      <script src="../Js/shop.js" defer></script>
-     <script src="../Js/cart.js" defer></script>
      <script src="../main.js" defer></script>
    <title>BookNest- Cart Page</title>
 </head>
@@ -71,6 +70,11 @@
             <div>Delete</div>
         </div>
         <div id="cartContainer"></div>
+        
+    <div id="estimatedTotalContainer" style="text-align: right; margin-top: 20px;">
+        <strong>Estimated Total: $<span id="estimatedTotal">0.00</span></strong>
+    </div>
+
     </div>
    </section>
     <!-- Footer -->
@@ -132,5 +136,7 @@
              </div>
        </div>
    </footer>
+        <script src="../Js/cart.js"></script>
+
  </body>
 </html>
