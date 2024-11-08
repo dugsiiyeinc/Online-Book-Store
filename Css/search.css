@@ -57,7 +57,7 @@
   .book-item .rate i{
     color:var(--colorYellowGold);
   }
-  .add-to-cart{
+ .go-to-shop-btn{
     padding:8px 30px;
     background-color:var(--colorblueblack);
     border:none;
@@ -65,7 +65,7 @@
     border-radius:10px;
     margin-top:15px;
   }
-  .add-to-cart:hover{
+ .go-to-shop-btn:hover{
      background-color: #4cb2c4;
    }
 @media (max-width:992px){

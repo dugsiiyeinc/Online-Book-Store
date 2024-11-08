@@ -109,9 +109,7 @@ function showBooks(slideIndex) {
             </div>
              <p class="price">$${book.bookPrice}</p>
               <div class="book-info">
-                <button class="add-to-cart">
-                <i class="fa-solid fa-cart-shopping"></i>
-                Add to Cart</button>
+               <button class="go-to-shop-btn">View All Books</button>
                 <button class="view" data-id="${book.bookId}">View Detail</button>
 
             </div>

@@ -95,7 +95,7 @@
     font-size: 18px;
   }
   
-  .add-to-cart-btn {
+.go-to-shop-btn {
     background-color: var(--colorblueblack);
     color: #fff;
     border: none;
@@ -105,7 +105,7 @@
     border-radius: 5px;
   }
   
-  .add-to-cart-btn:hover {
+.go-to-shop-btn:hover {
     background-color: #4cb2c4;
 }
   

@@ -34,7 +34,7 @@ async function fetchBookDetails() {
                 <input type="text" id="quantity" value="1" readonly>
                 <button id="increase" class="quantity-btn">+</button>
             </div>
-            <button class="add-to-cart-btn">Add to Cart</button>
+            <button class="go-to-shop-btn">View All Books</button>
             </div>
         `;
       const quantityInput = document.getElementById("quantity");

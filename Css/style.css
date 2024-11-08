@@ -417,7 +417,7 @@ header nav .btns .register:hover {
     font-size:12px;
    }
 
-.book-info .add-to-cart{
+.book-info .go-to-shop-btn{
     background-color:#21758f;
     padding: 3px;
     border:none;
@@ -436,7 +436,7 @@ header nav .btns .register:hover {
 
 
 }
-.book-info .add-to-cart:hover{
+.book-info .go-to-shop-btn:hover{
     background-color:var(--colorblackblue);
     color:#fff;
  
@@ -594,7 +594,7 @@ header nav .btns .register:hover {
         justify-content:space-between;
 
        }
-       .book-info .add-to-cart{
+       .book-info .go-to-shop-btn{
          padding:10px;
       
     }
