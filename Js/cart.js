@@ -40,6 +40,16 @@ function updateQuantity(index, change) {
 
      displayCart();
 }
+function confirmDelete(index) {
+    cartItems.splice(index, 1);
+
+     localStorage.setItem("cartItems", JSON.stringify(cartItems));
+    displayCart();
+
+     if (cartItems.length === 0) {
+        document.getElementById('estimatedTotal').innerText = '0.00';
+    }
+}
 
 window.onload = displayCart;
 
