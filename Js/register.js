@@ -26,6 +26,14 @@ document.addEventListener("DOMContentLoaded", () => {
             alert(`User with name ${firstName} and email ${email} already exists.`);
             return;
         }
+        const newUser = {
+            firstName,
+            lastName,
+            email,
+            password
+        };
+        users.push(newUser);
+        localStorage.setItem('users', JSON.stringify(users));
 
          alert("Register successfully!");
          window.location.href = "../html/login.html";
