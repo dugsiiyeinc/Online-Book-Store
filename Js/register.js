@@ -34,7 +34,14 @@
         users.push(newUser);
         localStorage.setItem('users', JSON.stringify(users));
 
-         alert("Register successfully!");
-         window.location.href = "../html/login.html";
+        //  alert("Register successfully!");
+        Swal.fire({
+            title: "Success",
+            text: "Register Successfully",
+            icon: "success",
+            confirmButtonText: "Ok"
+          }).then(() => {
+             window.location.href = "../html/login.html";
+          });
 
     });
