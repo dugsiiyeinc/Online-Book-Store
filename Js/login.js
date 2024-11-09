@@ -8,6 +8,11 @@
         const users = JSON.parse(localStorage.getItem('users')) || [];
 
         const user = users.find((usr) => usr.email === email && usr.password === password);
+        if (!user) {
+            alert('Invalid credentials');
+            return;
+        }
+
 
      });
 
