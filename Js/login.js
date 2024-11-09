@@ -13,6 +13,8 @@
             return;
         }
         localStorage.setItem('currentUser', JSON.stringify(user));
+        window.location.href = '../index.html';
+
 
 
      });
