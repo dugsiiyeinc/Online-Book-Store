@@ -19,7 +19,7 @@
             return;
         }
         const users = JSON.parse(localStorage.getItem('users')) || [];
-        const existingUser = users.find(user => user.email === email);
+        const existingUser = users.find(user => user.email === email  && user.firstName === firstName);
 
         if (existingUser) {
             alert(`User with name ${firstName} and email ${email} already exists.`);
