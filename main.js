@@ -41,3 +41,15 @@ const usernameDisplay = document.getElementById("username-display");
 const logoutBtn = document.getElementById("logout-btn");
 const loginBtn = document.querySelector(".login");
 const registerBtn = document.querySelector(".register");
+
+const currentUser = JSON.parse(localStorage.getItem("currentUser"));
+
+    if (currentUser) {
+        usernameDisplay.innerHTML = `<i class="fa-solid fa-user"></i> Welcome, ${currentUser.firstName}`;
+        usernameDisplay.style.display = "inline";
+        logoutBtn.style.display = "inline";
+
+         loginBtn.style.display = "none";
+        registerBtn.style.display = "none";
+    }
+
