@@ -36,3 +36,8 @@ register.addEventListener('click', ()=>{
     window.location.href = './html/register.html'
 
 });
+
+const usernameDisplay = document.getElementById("username-display");
+const logoutBtn = document.getElementById("logout-btn");
+const loginBtn = document.querySelector(".login");
+const registerBtn = document.querySelector(".register");
