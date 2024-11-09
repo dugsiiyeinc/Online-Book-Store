@@ -1,5 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const form = document.querySelector(".register-form");
+     const form = document.querySelector(".register-form");
     
     form.addEventListener("submit", function (event) {
         event.preventDefault();
@@ -39,4 +38,3 @@ document.addEventListener("DOMContentLoaded", () => {
          window.location.href = "../html/login.html";
 
     });
-});
