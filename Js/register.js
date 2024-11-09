@@ -19,6 +19,13 @@ document.addEventListener("DOMContentLoaded", () => {
             alert("Passwords do not match!");
             return;
         }
+        const users = JSON.parse(localStorage.getItem('users')) || [];
+        const existingUser = users.find(user => user.email === email);
+
+        if (existingUser) {
+            alert(`User with name ${firstName} and email ${email} already exists.`);
+            return;
+        }
 
          alert("Register successfully!");
          window.location.href = "../html/login.html";
