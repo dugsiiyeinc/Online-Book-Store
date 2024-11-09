@@ -53,3 +53,9 @@ const currentUser = JSON.parse(localStorage.getItem("currentUser"));
         registerBtn.style.display = "none";
     }
 
+    logoutBtn.addEventListener("click", () => {
+        localStorage.removeItem("currentUser");
+        window.location.reload();
+    });
+
+
