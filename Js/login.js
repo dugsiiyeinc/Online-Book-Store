@@ -12,6 +12,7 @@
             alert('Invalid credentials');
             return;
         }
+        localStorage.setItem('currentUser', JSON.stringify(user));
 
 
      });
