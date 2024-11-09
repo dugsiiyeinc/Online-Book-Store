@@ -9,10 +9,16 @@
 
         const user = users.find((usr) => usr.email === email && usr.password === password);
         if (!user) {
-            alert('Invalid credentials');
-            return;
-        }
-        localStorage.setItem('currentUser', JSON.stringify(user));
+             
+             Swal.fire({
+                title: "Error!",
+                text: "Invalid credentials!",
+                icon: "error",
+                confirmButtonText: "Try again"
+              });
+                return;
+        }
+          localStorage.setItem('currentUser', JSON.stringify(user));
         window.location.href = '../index.html';
 
 
