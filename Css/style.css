@@ -519,7 +519,7 @@ header nav .btns .register:hover {
       align-items:center;
     }
     .container .feed-image{
-      background:url('https://img.freepik.com/premium-photo/man-wearing-glasses-striped-shirt-holds-book_403587-3964.jpg?uid=R170454154&ga=GA1.1.130285263.1729434539&semt=ais_hybrid')no-repeat center/cover;
+      background:no-repeat center/cover;
       width:40%;
       height:500px;
       border-radius:20px;

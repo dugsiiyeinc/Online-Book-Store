@@ -179,19 +179,23 @@ const feedbacks = [
         comment: "This online bookstore has a fantastic selection! I found all my favorite authors and received my order quickly. Highly satisfied with the service!",
         stars: 5,
         date: "October 22, 2024",
-        author: "Ahmed Ali"
+        author: "Ahmed Ali",
+        imageUrl: 'https://img.freepik.com/premium-photo/man-wearing-glasses-striped-shirt-holds-book_403587-3964.jpg?uid=R170454154&ga=GA1.1.130285263.1729434539&semt=ais_hybrid'
+
     },
     {
         comment: "Shopping here is a breeze! The website is easy to navigate, and my books arrived in perfect condition. Great experience overall!",
         stars: 4,
         date: "September 29, 2024",
-        author: "Sarah Mursal"
+        author: "Sarah Mursal",
+        imageUrl: 'https://images.unsplash.com/photo-1613048645342-c54cda9c7be2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aGlqYWIlMjBnaXJsJTIwcmVhZGluZyUyMGJvb2t8ZW58MHx8MHx8fDA%3D'
     },
     {
         comment: "Every time I order, I’m impressed! The delivery is prompt, and I love the thoughtful packaging. Definitely my go-to bookstore now!",
         stars: 3,
         date: "August 18, 2024",
-        author: "David Miller"
+        author: "David Miller",
+        imageUrl: 'https://plus.unsplash.com/premium_photo-1668349758167-3c8849212507?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWFuJTIwcmVhZGluZyUyMGJvb2t8ZW58MHx8MHx8fDA%3D'
     }
 ];
 let currentIndex = 0;
@@ -209,6 +213,8 @@ let currentIndex = 0;
         star.className = "fa-solid fa-star";
         starsContainer.appendChild(star);
     }
+    document.querySelector("#feedImage").style.backgroundImage = `url('${feedback.imageUrl}')`;
+
 }
 
  function showNext() {
