@@ -75,7 +75,10 @@
     max-width: 500px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     position: relative;
- }
+    margin:20% auto;
+
+  }
+  
  #checkoutModal .close-btn {
     position: absolute;
     top: 10px;
@@ -157,5 +160,9 @@
     .delete-btn {
         width: 100%;
     }
+    #checkoutModal .modal-content {
+        margin:50% auto;
+    
+      }
 
 }
