@@ -235,5 +235,9 @@ function openCheckoutModal() {
 function closeCheckoutModal() {
     document.getElementById('checkoutModal').style.display = 'none';
 }
+function processCheckout() {
+    const paymentAmount = parseFloat(document.getElementById('paymentAmount').value);
+    const estimatedTotal = parseFloat(document.getElementById('estimatedTotalDisplay').innerText.replace("Estimated Total: $", ""));
+}
 
 
