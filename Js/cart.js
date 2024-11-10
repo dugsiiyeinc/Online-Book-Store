@@ -156,6 +156,7 @@ window.onload = displayCart;
 
      modal.querySelector(".checkout-btn").onclick = () => {
         openCheckoutModal();
+        updateEstimatedTotal()
         console.log("Checkout button clicked");
     };
 
@@ -251,5 +252,8 @@ function processCheckout() {
         displayCart();
     }
 }
-
+function updateEstimatedTotal() {
+    const totalAmount = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0).toFixed(2);
+    document.getElementById('estimatedTotalDisplay').innerText = `Estimated Total: $${totalAmount}`;
+}
 
