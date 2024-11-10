@@ -155,6 +155,7 @@ window.onload = displayCart;
     });
 
      modal.querySelector(".checkout-btn").onclick = () => {
+        openCheckoutModal();
         console.log("Checkout button clicked");
     };
 
@@ -227,6 +228,9 @@ window.onload = displayCart;
         }
     `;
     document.head.appendChild(style);
+}
+function openCheckoutModal() {
+    document.getElementById('checkoutModal').style.display = 'block';
 }
 
 
