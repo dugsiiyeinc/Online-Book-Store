@@ -22,7 +22,8 @@ const newsletter = document.querySelector("#news-letter");
 newsletter.addEventListener('submit',(event)=>{
     event.preventDefault();
     const email = event.target.querySelector('input[type="email"]').value;
-     Swal.fire({
+    alert("Thanks for your subscribing");
+    Swal.fire({
         title: 'success',
         text: "Thanks for your subscribing",
         icon: "success",
@@ -40,7 +41,6 @@ const mobileRegister = document.querySelector('.mobileScreens .register');
 desktopLogin.addEventListener('click', () => {
     window.location.href = './html/login.html';
 });
-q
 desktopRegister.addEventListener('click', () => {
     window.location.href = './html/register.html';
 });
@@ -103,7 +103,7 @@ btnsContainerMobile.appendChild(logoutBtnMobile);
 
  const currentUser = JSON.parse(localStorage.getItem("currentUser"));
 
-if (currentUser) {
+if (currentUser && currentUser.firstName) {
     usernameContainerDesktop.querySelector("#username-display").textContent = ` ${currentUser.firstName}`;
     usernameContainerDesktop.style.display = "flex";
     logoutBtnDesktop.style.display = "inline";
