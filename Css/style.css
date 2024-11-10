@@ -488,10 +488,14 @@ header nav .btns .register:hover {
    .cta h2{
     font-size:2rem;
     color:#fff;
+  }
+   .cta h2 span{
+     color:var(--colorYellowGold)
+
     }
     .cta p{
       font-size:20px;
-      color:var(--colorYellowGold);
+      color:#fff;
     }
     .cta a{
       width:200px;
