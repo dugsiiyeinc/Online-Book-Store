@@ -84,6 +84,14 @@ mobileRegister.addEventListener('click', () => {
     button.style.border = "none";
     button.style.borderRadius = "10px";
     button.style.fontWeight = "bold";
+    button.style.fontWeight = "bold";
+    button.addEventListener("mouseover", () => {
+        button.style.backgroundColor = "#21758f"; 
+     });
+
+    button.addEventListener("mouseout", () => {
+        button.style.backgroundColor = "#0d2537";
+     });
     return button;
 }
 
