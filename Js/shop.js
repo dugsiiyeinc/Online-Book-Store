@@ -175,8 +175,7 @@ function showCartSummaryModal() {
             <div class="cart-modal-body">${cartItemsHtml}</div>
             <div class="cart-footer">
                 <p><strong>Total Price: $${totalPrice}</strong></p>
-                <button class="checkout-btn">Check Out</button>
-                <button class="view-cart-btn">View Cart</button>
+                 <button class="view-cart-btn">View Cart</button>
             </div>
         </div>
     `;
@@ -186,9 +185,6 @@ function showCartSummaryModal() {
     modal.addEventListener("click", (event) => {
         if (event.target === modal) modal.remove();
     });
-     modal.querySelector(".checkout-btn").onclick = () => {
-        console.log("Checkout btn is clicked");
-     };
 
      modal.querySelector(".view-cart-btn").onclick = () => {
         window.location.href = '../html/cart.html';
@@ -236,7 +232,7 @@ style.innerHTML = `
         font-size: 24px;
         cursor: pointer;
     }
-    .checkout-btn, .view-cart-btn {
+     .view-cart-btn {
         margin-top: 15px;
         padding: 10px 20px;
         cursor: pointer; 
@@ -244,13 +240,6 @@ style.innerHTML = `
         border:2px solid #21758f;
 
     }
-     .checkout-btn{
-    background-color: #21758f;
-    color:#fff;
-     }
-     .checkout-btn:hover{
-         background-color: #5ca4b5;
-      }
     .view-cart-btn{
         background-color: transparent;
         color: #21758f;
