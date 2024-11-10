@@ -14,13 +14,13 @@
 .hero .container{
      display:flex;
     flex-direction:column;
-    gap:5px;
+    gap:10px;
 }
 .hero .container span{
     color:var(--colorYellowGold)
 }
 .hero .container p{
-    color:rgba(255,255,255,0.6);
+    color:#fff;
 }
 .cta-button{
     width:200px;
