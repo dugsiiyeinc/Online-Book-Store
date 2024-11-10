@@ -98,7 +98,20 @@
     border-radius: 5px;
     margin-bottom: 15px;
 }
+#checkoutForm .checkout-submit {
+    background-color: #21758f;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
 
+#checkoutForm .checkout-submit:hover {
+    background-color: #5ca4b5;
+}
 @media (max-width:768px){
     .cart-table, .cart-table tr, .cart-table td {
         display: block;
