@@ -42,6 +42,7 @@ register.addEventListener('click', ()=>{
  const usernameContainer = document.createElement("div");
 usernameContainer.id = "username-container";
 usernameContainer.style.display = "none";
+usernameContainer.style.color = "#21758f";
 usernameContainer.style.flexDirection = "column";
 usernameContainer.style.alignItems = "center";
 usernameContainer.style.gap = "5px";
@@ -49,7 +50,6 @@ usernameContainer.style.gap = "5px";
  const userIcon = document.createElement("i");
 userIcon.className = "fa-solid fa-user";
 userIcon.id = "user-icon";
-
  const usernameDisplay = document.createElement("span");
 usernameDisplay.id = "username-display";
 
@@ -60,6 +60,12 @@ const logoutBtn = document.createElement("button");
 logoutBtn.id = "logout-btn";
 logoutBtn.textContent = "Logout";
 logoutBtn.style.display = "none";
+logoutBtn.style.padding = "3px 20px";
+logoutBtn.style.color = "#fff";
+logoutBtn.style.backgroundColor = "#0d2537";
+logoutBtn.style.border = "none";
+logoutBtn.style.borderRadius = "10px";
+logoutBtn.style.fontWeight = "bold";
 
  btnsContainer.appendChild(usernameContainer);
 btnsContainer.appendChild(logoutBtn);
@@ -79,7 +85,7 @@ const currentUser = JSON.parse(localStorage.getItem("currentUser"));
 
     logoutBtn.addEventListener("click", () => {
         localStorage.removeItem("currentUser");
-        window.location.reload();
+        window.location.href = './html/login.html';
     });
 
 
