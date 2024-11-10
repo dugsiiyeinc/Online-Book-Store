@@ -37,18 +37,42 @@ register.addEventListener('click', ()=>{
 
 });
 
-const usernameDisplay = document.getElementById("username-display");
-const logoutBtn = document.getElementById("logout-btn");
+ const btnsContainer = document.querySelector(".btns");
+
+ const usernameContainer = document.createElement("div");
+usernameContainer.id = "username-container";
+usernameContainer.style.display = "none";
+usernameContainer.style.flexDirection = "column";
+usernameContainer.style.alignItems = "center";
+usernameContainer.style.gap = "5px";
+
+ const userIcon = document.createElement("i");
+userIcon.className = "fa-solid fa-user";
+userIcon.id = "user-icon";
+
+ const usernameDisplay = document.createElement("span");
+usernameDisplay.id = "username-display";
+
+ usernameContainer.appendChild(userIcon);
+usernameContainer.appendChild(usernameDisplay);
+// logout
+const logoutBtn = document.createElement("button");
+logoutBtn.id = "logout-btn";
+logoutBtn.textContent = "Logout";
+logoutBtn.style.display = "none";
+
+ btnsContainer.appendChild(usernameContainer);
+btnsContainer.appendChild(logoutBtn);
+
 const loginBtn = document.querySelector(".login");
 const registerBtn = document.querySelector(".register");
 
 const currentUser = JSON.parse(localStorage.getItem("currentUser"));
 
     if (currentUser) {
-        usernameDisplay.innerHTML = `<i class="fa-solid fa-user"></i> Welcome, ${currentUser.firstName}`;
-        usernameDisplay.style.display = "inline";
+        usernameDisplay.textContent = ` ${currentUser.firstName}`;
+         usernameContainer.style.display = "flex"
         logoutBtn.style.display = "inline";
-
          loginBtn.style.display = "none";
         registerBtn.style.display = "none";
     }
