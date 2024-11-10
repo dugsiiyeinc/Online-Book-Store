@@ -241,11 +241,29 @@ function processCheckout() {
     const paymentAmount = parseFloat(document.getElementById('paymentAmount').value);
     const estimatedTotal = parseFloat(document.getElementById('estimatedTotalDisplay').innerText.replace("Estimated Total: $", ""));
     if (!paymentAmount || paymentAmount <= 0) {
-        alert('Please enter a valid payment amount.');
-    } else if (paymentAmount !== estimatedTotal) {
-        alert(`The payment amount must be equal to the estimated total of $${estimatedTotal.toFixed(2)}.`);
+        // alert('Please enter a valid payment amount.');
+        Swal.fire({
+            title: "Error!",
+            text: "Please enter a valid payment amount.",
+            icon: "error",
+            confirmButtonText: "Try again"
+          });
+     } else if (paymentAmount !== estimatedTotal) {
+        Swal.fire({
+            title: "Error!",
+            text: `The payment amount must be equal to the estimated total of $${estimatedTotal.toFixed(2)}.`,
+            icon: "error",
+            confirmButtonText: "Try again"
+          });
+        // alert(`The payment amount must be equal to the estimated total of $${estimatedTotal.toFixed(2)}.`);
     } else {
-         alert(`Thanks for your purchase of $${paymentAmount.toFixed(2)}. Your payment is being processed.`);
+        //  alert(`Thanks for your purchase of $${paymentAmount.toFixed(2)}. Your payment is being processed.`);
+         Swal.fire({
+            title: "Success",
+            text: `Thanks for your purchase of $${paymentAmount.toFixed(2)}. Your payment is being processed.`,
+            icon: "success",
+            confirmButtonText: "Ok"
+          });
         closeCheckoutModal();
         cartItems = [];
         localStorage.setItem("cartItems", JSON.stringify(cartItems));
