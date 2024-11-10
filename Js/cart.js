@@ -156,6 +156,7 @@ window.onload = displayCart;
 
      modal.querySelector(".checkout-btn").onclick = () => {
         openCheckoutModal();
+        modal.remove();
         updateEstimatedTotal()
         console.log("Checkout button clicked");
     };
