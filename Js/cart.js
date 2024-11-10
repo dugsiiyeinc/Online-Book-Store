@@ -238,6 +238,18 @@ function closeCheckoutModal() {
 function processCheckout() {
     const paymentAmount = parseFloat(document.getElementById('paymentAmount').value);
     const estimatedTotal = parseFloat(document.getElementById('estimatedTotalDisplay').innerText.replace("Estimated Total: $", ""));
+    if (!paymentAmount || paymentAmount <= 0) {
+        alert('Please enter a valid payment amount.');
+    } else if (paymentAmount !== estimatedTotal) {
+        alert(`The payment amount must be equal to the estimated total of $${estimatedTotal.toFixed(2)}.`);
+    } else {
+         alert(`Thanks for your purchase of $${paymentAmount.toFixed(2)}. Your payment is being processed.`);
+        closeCheckoutModal();
+        cartItems = [];
+        localStorage.setItem("cartItems", JSON.stringify(cartItems));
+        updateCartCount();
+        displayCart();
+    }
 }
 
 
