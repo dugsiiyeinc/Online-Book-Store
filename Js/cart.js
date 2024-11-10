@@ -232,6 +232,8 @@ window.onload = displayCart;
 function openCheckoutModal() {
     document.getElementById('checkoutModal').style.display = 'block';
 }
-
+function closeCheckoutModal() {
+    document.getElementById('checkoutModal').style.display = 'none';
+}
 
 
