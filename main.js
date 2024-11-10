@@ -32,7 +32,7 @@ login.addEventListener('click', ()=>{
 });
 
 register.addEventListener('click', ()=>{
-    window.location.href = './html/register.html'
+    window.location.href = '../html/register.html'
 });
 
  const btnsContainer = document.querySelector(".btns");

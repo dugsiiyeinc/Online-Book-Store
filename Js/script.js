@@ -79,7 +79,13 @@ async function fetchBooks() {
 	   showBooks(currentSlide);  
    } catch (error) {
 	   console.error("Error fetching books:", error); 
-       alert("Failed to load books. Please try again later")
+    //    alert("Failed to load books. Please try again later")
+    Swal.fire({
+        title: "Error!",
+        text:  'Failed to load books. Please try again later',
+        icon: "error",
+        confirmButtonText: "Try again"
+      });
    }
 }
 
@@ -239,7 +245,14 @@ searchForm.addEventListener('submit',(e)=>{
    if (searchInput) {
         window.location.href = `./html/searched-books.html?query=${encodeURIComponent(searchInput)}`;
     } else {
-       alert("Please enter a book title or author.");
+    //    alert("Please enter a book title or author.");
+       Swal.fire({
+        title: "Input Required",
+        text:  'Please enter a book title or author.',
+        icon: "error",
+        confirmButtonText: "ok"
+      });
+       
    }
 
 })
