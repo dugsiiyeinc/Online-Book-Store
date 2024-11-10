@@ -1,3 +1,19 @@
+// List of image paths
+const images = [
+    "/images/Reading glasses-cuate.png",
+    "/images/Reading glasses-pana.png",
+    "/images/Book lover-amico.png"
+];
+
+ let currentImageIndex = 0;
+
+function changeHeroImage() {
+    const heroImage = document.getElementById('hero-img');
+    heroImage.src = images[currentImageIndex];
+    currentImageIndex = (currentImageIndex + 1) % images.length; 
+}
+ setInterval(changeHeroImage, 2000); 
+
 let books = [];
     
 //  books.json
