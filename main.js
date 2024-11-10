@@ -32,13 +32,10 @@ login.addEventListener('click', ()=>{
 });
 
 register.addEventListener('click', ()=>{
-    console.log("clicked");
     window.location.href = './html/register.html'
-
 });
 
  const btnsContainer = document.querySelector(".btns");
-
  const usernameContainer = document.createElement("div");
 usernameContainer.id = "username-container";
 usernameContainer.style.display = "none";
