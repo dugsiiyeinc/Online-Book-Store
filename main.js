@@ -25,64 +25,100 @@ newsletter.addEventListener('submit',(event)=>{
     alert("Thanks for your subscribing");
 })
 
-const login = document.querySelector('.login');
-const register = document.querySelector('.register');
-login.addEventListener('click', ()=>{
-    window.location.href = './html/login.html'
+
+//  Login & logout for both desktop and mobile
+const desktopLogin = document.querySelector('.desktop .login');
+const mobileLogin = document.querySelector('.mobileScreens .login');
+const desktopRegister = document.querySelector('.desktop .register');
+const mobileRegister = document.querySelector('.mobileScreens .register');
+
+desktopLogin.addEventListener('click', () => {
+    window.location.href = './html/login.html';
+});
+q
+desktopRegister.addEventListener('click', () => {
+    window.location.href = './html/register.html';
 });
 
-register.addEventListener('click', ()=>{
-    window.location.href = '../html/register.html'
+mobileLogin.addEventListener('click', () => {
+    window.location.href = './html/login.html';
 });
 
- const btnsContainer = document.querySelector(".btns");
- const usernameContainer = document.createElement("div");
-usernameContainer.id = "username-container";
-usernameContainer.style.display = "none";
-usernameContainer.style.color = "#21758f";
-usernameContainer.style.flexDirection = "column";
-usernameContainer.style.alignItems = "center";
-usernameContainer.style.gap = "5px";
+mobileRegister.addEventListener('click', () => {
+    window.location.href = './html/register.html';
+});
 
- const userIcon = document.createElement("i");
-userIcon.className = "fa-solid fa-user";
-userIcon.id = "user-icon";
- const usernameDisplay = document.createElement("span");
-usernameDisplay.id = "username-display";
+ function createUsernameContainer() {
+    const container = document.createElement("div");
+    container.id = "username-container";
+    container.style.display = "none";
+    container.style.color = "#21758f";
+    container.style.flexDirection = "column";
+    container.style.alignItems = "center";
+    container.style.gap = "5px";
 
- usernameContainer.appendChild(userIcon);
-usernameContainer.appendChild(usernameDisplay);
-// logout
-const logoutBtn = document.createElement("button");
-logoutBtn.id = "logout-btn";
-logoutBtn.textContent = "Logout";
-logoutBtn.style.display = "none";
-logoutBtn.style.padding = "3px 20px";
-logoutBtn.style.color = "#fff";
-logoutBtn.style.backgroundColor = "#0d2537";
-logoutBtn.style.border = "none";
-logoutBtn.style.borderRadius = "10px";
-logoutBtn.style.fontWeight = "bold";
+    const icon = document.createElement("i");
+    icon.className = "fa-solid fa-user";
+    icon.id = "user-icon";
+    const display = document.createElement("span");
+    display.id = "username-display";
 
- btnsContainer.appendChild(usernameContainer);
-btnsContainer.appendChild(logoutBtn);
+    container.appendChild(icon);
+    container.appendChild(display);
+    return container;
+}
 
-const loginBtn = document.querySelector(".login");
-const registerBtn = document.querySelector(".register");
+ function createLogoutButton() {
+    const button = document.createElement("button");
+    button.id = "logout-btn";
+    button.textContent = "Logout";
+    button.style.display = "none";
+    button.style.padding = "3px 20px";
+    button.style.color = "#fff";
+    button.style.backgroundColor = "#0d2537";
+    button.style.border = "none";
+    button.style.borderRadius = "10px";
+    button.style.fontWeight = "bold";
+    return button;
+}
 
-const currentUser = JSON.parse(localStorage.getItem("currentUser"));
+ const btnsContainerDesktop = document.querySelector(".desktop .btns");
+const btnsContainerMobile = document.querySelector(".mobileScreens .btns");
 
-    if (currentUser) {
-        usernameDisplay.textContent = ` ${currentUser.firstName}`;
-         usernameContainer.style.display = "flex"
-        logoutBtn.style.display = "inline";
-         loginBtn.style.display = "none";
-        registerBtn.style.display = "none";
-    }
+const usernameContainerDesktop = createUsernameContainer();
+const logoutBtnDesktop = createLogoutButton();
 
-    logoutBtn.addEventListener("click", () => {
-        localStorage.removeItem("currentUser");
-        window.location.href = './html/login.html';
-    });
+const usernameContainerMobile = createUsernameContainer();
+const logoutBtnMobile = createLogoutButton();
+
+btnsContainerDesktop.appendChild(usernameContainerDesktop);
+btnsContainerDesktop.appendChild(logoutBtnDesktop);
+btnsContainerMobile.appendChild(usernameContainerMobile);
+btnsContainerMobile.appendChild(logoutBtnMobile);
+
+ const currentUser = JSON.parse(localStorage.getItem("currentUser"));
+
+if (currentUser) {
+    usernameContainerDesktop.querySelector("#username-display").textContent = ` ${currentUser.firstName}`;
+    usernameContainerDesktop.style.display = "flex";
+    logoutBtnDesktop.style.display = "inline";
+    desktopLogin.style.display = "none";
+    desktopRegister.style.display = "none";
+
+    usernameContainerMobile.querySelector("#username-display").textContent = ` ${currentUser.firstName}`;
+    usernameContainerMobile.style.display = "flex";
+    logoutBtnMobile.style.display = "inline";
+    mobileLogin.style.display = "none";
+    mobileRegister.style.display = "none";
+}
 
 
+logoutBtnDesktop.addEventListener("click", () => {
+    localStorage.removeItem("currentUser");
+    window.location.href = './html/login.html';
+});
+
+logoutBtnMobile.addEventListener("click", () => {
+    localStorage.removeItem("currentUser");
+    window.location.href = './html/login.html';
+});
