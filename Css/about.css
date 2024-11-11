@@ -40,7 +40,6 @@
     height:100vh;
     display:flex;
     align-items:center;
-     margin-block:50px;
 }
 .our-story .container{
      display:flex;
@@ -71,7 +70,7 @@
 }
 .mission{
     width:100%;
-    height:500px;
+    height:400px;
     display:flex;
     align-items:center;
 }
@@ -141,7 +140,7 @@
    .our-story{
     width:100%;
     height:auto;
-    
+    margin-block:20px; 
 }
    .our-story .container{
      flex-direction:column;
@@ -156,6 +155,8 @@
 .our-story .text {
      text-align: center;
     padding: 1rem;
+    display:flex;
+    align-items:center
 }
 
 .mission{

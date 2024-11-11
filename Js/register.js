@@ -41,7 +41,7 @@
             icon: "success",
             confirmButtonText: "Ok"
           }).then(() => {
-             window.location.href = "../html/login.html";
+             window.location.href = "./html/login.html";
           });
 
     });

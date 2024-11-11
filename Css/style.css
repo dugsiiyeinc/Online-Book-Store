@@ -315,7 +315,7 @@ header nav .btns .register:hover {
   }
   #cart-icon {
     position: relative;
-    right:100px;
+    right:120px;
    }
 }
 @media (max-width: 768px) {
@@ -423,7 +423,7 @@ header nav .btns .register:hover {
 
 .book-info .go-to-shop-btn{
     background-color:#21758f;
-    padding: 3px;
+    padding: 10px 5px;
     border:none;
     color:#fff;
     transition:0.5s;
@@ -434,7 +434,7 @@ header nav .btns .register:hover {
     background-color:#fff;
     color:#21758f;
     border:1px solid #21758f;
-    padding: 3px;
+    padding: 10px 5px;
     transition:0.5s;
     cursor:pointer;
 
