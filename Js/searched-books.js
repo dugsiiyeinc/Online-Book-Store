@@ -12,7 +12,7 @@ async function displaySearchedBooks() {
     searchQueryDisplay.textContent = `Showing results for "${query}"`;
 
     try {
-        const response = await fetch('../books.json');
+        const response = await fetch('/data/books.json');
         const books = await response.json();
         const foundBooks = books.filter(book =>
             book.bookTitle.toLowerCase().includes(query) ||

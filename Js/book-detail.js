@@ -3,7 +3,7 @@ async function fetchBookDetails() {
   const bookId = urlParams.get("bookId");
   console.log("Book ID:", bookId);
   try {
-    const response = await fetch("../books.json");
+    const response = await fetch("/data/books.json");
     if (!response.ok) {
       console.error("Response received:", response);
       throw new Error(`HTTP error! status: ${response.status}`);

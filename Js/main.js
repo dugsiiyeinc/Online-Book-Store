@@ -39,18 +39,18 @@ const desktopRegister = document.querySelector('.desktop .register');
 const mobileRegister = document.querySelector('.mobileScreens .register');
 
 desktopLogin.addEventListener('click', () => {
-    window.location.href = './html/login.html';
+    window.location.href = '../html/login.html';
 });
 desktopRegister.addEventListener('click', () => {
-    window.location.href = './html/register.html';
+    window.location.href = '../html/register.html';
 });
 
 mobileLogin.addEventListener('click', () => {
-    window.location.href = './html/login.html';
+    window.location.href = '../html/login.html';
 });
 
 mobileRegister.addEventListener('click', () => {
-    window.location.href = './html/register.html';
+    window.location.href = '../html/register.html';
 });
 
  function createUsernameContainer() {
@@ -127,10 +127,10 @@ if (currentUser && currentUser.firstName) {
 
 logoutBtnDesktop.addEventListener("click", () => {
     localStorage.removeItem("currentUser");
-    window.location.href = './html/login.html';
+    window.location.href = '../html/login.html';
 });
 
 logoutBtnMobile.addEventListener("click", () => {
     localStorage.removeItem("currentUser");
-    window.location.href = './html/login.html';
+    window.location.href = '../html/login.html';
 });

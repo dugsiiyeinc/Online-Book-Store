@@ -68,7 +68,7 @@ let currentSlide = 0;
 
 async function fetchBooks() {
 	try {
-	   const response = await fetch('books.json'); 
+	   const response = await fetch('/data/books.json'); 
 	   if (!response.ok) {
 		   throw new Error('Books cannot be fetched');  
 	   }

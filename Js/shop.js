@@ -17,7 +17,7 @@ function changeHeroImage() {
 let books = [];
     
 //  books.json
-fetch('../books.json')
+fetch('/data/books.json')
     .then(response => response.json())
     .then(data => {
         books = data;
