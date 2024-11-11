@@ -40,3 +40,4 @@ async function fetchBookDetails() {
   }
 }
 document.addEventListener("DOMContentLoaded", fetchBookDetails);
+
