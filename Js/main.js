@@ -165,8 +165,6 @@ document.addEventListener("click", function(event) {
  }
  
   localStorage.setItem("cartItems", JSON.stringify([]));
- window.location.href = '/html/shop.html';
-
  function updateCartCount() {
     let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];  
     const cartCount = document.getElementById("cart-count");   

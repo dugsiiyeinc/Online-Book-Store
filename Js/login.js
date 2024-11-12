@@ -20,7 +20,7 @@
         }
           localStorage.setItem('currentUser', JSON.stringify(user));
           localStorage.setItem("isLoggedIn", "true");
-          window.location.href = '/html/shop.html';
+          window.location.href = '../index.html';
 
 
 
