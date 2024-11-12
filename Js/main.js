@@ -127,10 +127,50 @@ if (currentUser && currentUser.firstName) {
 
 logoutBtnDesktop.addEventListener("click", () => {
     localStorage.removeItem("currentUser");
+    localStorage.removeItem("cartItems");  
+    updateCartCount();
     window.location.href = '../html/login.html';
 });
 
 logoutBtnMobile.addEventListener("click", () => {
     localStorage.removeItem("currentUser");
+    localStorage.removeItem("cartItems");  
+    updateCartCount();
     window.location.href = '../html/login.html';
 });
+
+document.addEventListener("click", function(event) {
+    if (event.target.classList.contains("add-to-cart")) {
+        const currentUser = JSON.parse(localStorage.getItem("currentUser"));
+        
+        if (!currentUser) {
+             alert("Please log in to add items to the cart.");
+            localStorage.setItem("queuedItem", JSON.stringify({
+                 title: event.target.closest(".book-item").querySelector("h3").innerText,
+                image: event.target.closest(".book-item").querySelector("img").src,
+                price: parseFloat(event.target.closest(".book-item").querySelector(".book-price").innerText.replace("Price: $", ""))
+            }));
+            window.location.href = '/html/login.html';
+        } else {
+             addToCart(currentUser, event.target.closest(".book-item"));
+        }
+    }
+});
+ localStorage.setItem("isLoggedIn", "true");
+ const queuedItem = JSON.parse(localStorage.getItem("queuedItem"));
+ if (queuedItem) {
+     const currentUser = JSON.parse(localStorage.getItem("currentUser"));
+     addToCart(currentUser, queuedItem);
+     localStorage.removeItem("queuedItem");
+ }
+ 
+  localStorage.setItem("cartItems", JSON.stringify([]));
+ window.location.href = '/html/shop.html';
+
+ function updateCartCount() {
+    let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];  
+    const cartCount = document.getElementById("cart-count");   
+    cartCount.innerText = cartItems.reduce((sum, item) => sum + item.quantity, 0); 
+}
+
+ 

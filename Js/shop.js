@@ -121,33 +121,39 @@ document.addEventListener("DOMContentLoaded", function() {
     updateCartCount();
 });
 
+function addToCart(user, bookItem) {
+    const bookTitle = bookItem.querySelector("h3").innerText;
+    const bookImage = bookItem.querySelector("img").src;
+    const bookPrice = parseFloat(bookItem.querySelector(".book-price").innerText.replace("Price: $", ""));
+
+    const existingItem = cartItems.find(item => item.title === bookTitle);
+    if (existingItem) {
+        existingItem.quantity += 1;
+    } else {
+        const cartItem = {
+            title: bookTitle,
+            image: bookImage,
+            price: bookPrice,
+            quantity: 1
+        };
+        cartItems.push(cartItem);
+    }
+
+    localStorage.setItem("cartItems", JSON.stringify(cartItems));
+    updateCartCount();
+}
+
 document.addEventListener("click", function(event) {
     if (event.target.classList.contains("add-to-cart")) {
         const bookItem = event.target.closest(".book-item");
-        const bookTitle = bookItem.querySelector("h3").innerText;
-        const bookImage = bookItem.querySelector("img").src;
-        const bookPrice = parseFloat(bookItem.querySelector(".book-price").innerText.replace("Price: $", ""));
-
-        const existingItem = cartItems.find(item => item.title === bookTitle);
-        if (existingItem) {
-            existingItem.quantity += 1;
-        } else {
-            const cartItem = {
-                title: bookTitle,
-                image: bookImage,
-                price: bookPrice,
-                quantity: 1
-            };
-            cartItems.push(cartItem);
-        }
-        localStorage.setItem("cartItems", JSON.stringify(cartItems));
-        updateCartCount();
+        addToCart(bookItem);
     }
 });
-function updateCartCount() {
-    const cartCount = document.getElementById("cart-count");
-    cartCount.innerText = cartItems.reduce((sum, item) => sum + item.quantity, 0);
-}
+// function updateCartCount() {
+//     let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+//      const cartCount = document.getElementById("cart-count");
+//     cartCount.innerText = cartItems.reduce((sum, item) => sum + item.quantity, 0);
+// }
 document.getElementById("cart-icon").addEventListener("click", function() {
     showCartSummaryModal();
 });

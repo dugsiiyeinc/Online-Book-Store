@@ -19,7 +19,8 @@
                 return;
         }
           localStorage.setItem('currentUser', JSON.stringify(user));
-        window.location.href = '/index.html';
+          localStorage.setItem("isLoggedIn", "true");
+          window.location.href = '/html/shop.html';
 
 
 
