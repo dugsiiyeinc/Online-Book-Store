@@ -21,14 +21,17 @@ const newsletter = document.querySelector("#news-letter");
 
 newsletter.addEventListener('submit',(event)=>{
     event.preventDefault();
-    const email = event.target.querySelector('input[type="email"]').value;
-    // alert("Thanks for your subscribing");
+    const emailInput = event.target.querySelector('input[type="email"]');
+    const email = emailInput.value;
+     // alert("Thanks for your subscribing");
     Swal.fire({
         title: 'success',
         text: "Thanks for your subscribing",
         icon: "success",
         confirmButtonText: "OK"
       });
+      emailInput.value = '';
+
 })
 
 
